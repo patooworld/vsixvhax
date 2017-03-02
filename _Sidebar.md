@@ -1,8 +1,13 @@
+**Setup**
+
+- [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration)
+- [Build Tasks](https://github.com/vshaxe/vshaxe/wiki/Build-Tasks)
+- [Framework Notes](https://github.com/vshaxe/vshaxe/wiki/Framework-Notes)
+
 **Features**
 
-- a
-- b
-- c
+- [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
+- [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
 
 **Releases**
 
