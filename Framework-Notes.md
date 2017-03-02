@@ -36,4 +36,4 @@ Problem matcher (`tasks.json` file) also needs to take location of hxml file int
 
 For **Flixel**, please refer to [this](http://haxeflixel.com/documentation/visual-studio-code/) document. `flixel-tools` supports initializing a `.vscode` workspace for you.
 
-Feel free to file an issue with details for other frameworks.
+Feel free to file an issue with details for other frameworks. Smoother integration with third-party libraries is planned ([#18](https://github.com/vshaxe/vshaxe/issues/18)).
