@@ -15,7 +15,7 @@ Known issues: a new Haxe output channel is added on each restart ([#87](https://
 
 ### Haxe: Select Display Configuration...
 
-Choose the currently active display configuration (see [Configuration](/vshaxe/vshaxe/wiki/Configuration) section for more info).
+Choose the currently active display configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
 
 ### Haxe: Run Global Diagnostics Check
 
