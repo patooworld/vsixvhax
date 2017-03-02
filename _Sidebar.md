@@ -6,8 +6,9 @@
 
 **Features**
 
-- [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
+- [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
+- [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 
 **Releases**
 
