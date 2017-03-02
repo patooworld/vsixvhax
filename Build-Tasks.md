@@ -19,3 +19,5 @@ Example `tasks.json` file (the problem matcher is submitted to https://github.co
     }
 }
 ```
+
+Known issues: Haxe sometimes outputs relative and sometimes absolute paths, but the problem matcher can only be configured to accept one at a time ([#23](https://github.com/vshaxe/vshaxe/issues/23)).
