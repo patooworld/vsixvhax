@@ -19,6 +19,11 @@
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 
+**Debugging**
+
+- [JavaScript](https://github.com/vshaxe/vshaxe/wiki/JavaScript-Debugging)
+- [Flash](https://github.com/vshaxe/vshaxe/wiki/Flash-Debugging)
+
 **Releases**
 
 - [What's New in 1.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-1.0.0)
