@@ -7,8 +7,18 @@
 **Features**
 
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
-- [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
+- [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
+- [Completion Cache](https://github.com/vshaxe/vshaxe/wiki/Completion-Cache)
+- [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
+- [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
+- [Peek Definition](https://github.com/vshaxe/vshaxe/wiki/Peek-Definition)
+- [Find All References](https://github.com/vshaxe/vshaxe/wiki/Find-All-References)
+- [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
+- [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols)
+- [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
+- [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
+- [Determine Package](https://github.com/vshaxe/vshaxe/wiki/Determine-Package)
 
 **Releases**
 
