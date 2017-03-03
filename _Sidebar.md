@@ -18,7 +18,6 @@
 - [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
-- [Determine Package](https://github.com/vshaxe/vshaxe/wiki/Determine-Package)
 
 **Releases**
 
