@@ -4,7 +4,7 @@ The easiest way to install the latest vshaxe release is by searching the VSCode 
 
 [[images/installation/marketplace.gif]]
 
-Alternatively, you can open press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install vshaxe`.
+Alternatively, press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install vshaxe`.
 
 However, instead of installing vshaxe directly, you might want to consider installing the [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack) instead. Apart from vshaxe itself, it also contains the [Haxe Debug](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-debug) (for [Flash Debugging](https://github.com/vshaxe/vshaxe/wiki/Flash-Debugging)) and [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox) (for doc comment generation) extensions.
 
