@@ -28,12 +28,12 @@ Many Diagnostics have one or multiple Code Actions associated with them. A compr
 
 There are two settings that influence the behavior of Diagnostics:
 
-- "haxe.enableDiagnostics" - Controls whether Diagnostics should be shown at all. Defaults to `true`.
-- "haxe.diagnosticsPathFilter" - A regex that is matched against file paths. Diagnostics for files not matching the filter are hidden.
+- `"haxe.enableDiagnostics"` - Controls whether Diagnostics should be shown at all. Defaults to `true`.
+- `"haxe.diagnosticsPathFilter"` - A regex that is matched against file paths. Diagnostics for files not matching the filter are hidden.
 
-  The default filter is `"${workspaceRoot}"`, which means Diagnostics are only shown for files in the current workspace (`${workspaceRoot}` is replaced with the current workspace's path). This means that Diagnostics won't be shown for files in your Haxelib directory, for instance. If you are for instance the author of a Haxelib and do want to see Diagnostics for Haxelibs as well, you can effectively disable the filter by making it match everything (`".*?"`).
+  The default filter is `"${workspaceRoot}"`, which means Diagnostics are only shown for files in the current workspace (`${workspaceRoot}` is replaced with the current workspace's path). This means that Diagnostics won't be shown for files in your Haxelib directory. If you want to see Diagnostics for Haxelibs as well (for instance if you are the author of a Haxelib), you can effectively disable the filter by making it match everything (`".*?"`).
 
-  For some projects, it makes sense to restrict the filter even further than `"${workspaceRoot}"`, e.g. to `"${workspaceRoot}/Source"` in OpenFL projects. Lime generates some `.hx` files into the `Export` directory, which you may want to hide.
+  For some projects, it makes sense to restrict the filter even further than `"${workspaceRoot}"`, e.g. to `"${workspaceRoot}/Source"` in OpenFL projects. Lime generates some `.hx` files into the `Export` directory, for which Diagnostics are not very useful.
 
   Apart from `${workspaceRoot}`, there's also a second variable available in filters: `${haxelibPath}`. You could use this to show Diagnostics only for the current workspace and a specific haxelib, for instance:
 
