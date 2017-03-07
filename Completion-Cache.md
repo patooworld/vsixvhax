@@ -38,7 +38,7 @@ There are ways to further decrease completion times using the [haxe.macro.Compil
 
 [[images/completion-cache/module-check-policy.png]]
 
-Apart from that, try adding `--times` and `-D macro-times` to your display `.hxml`. Maybe a lot of time is spent on a particular macro that doesn't need to do as much work in display mode (check for `#if display`).
+Apart from that, try adding `--times` and `-D macro-times` to your display `.hxml`. Maybe a lot of time is spent on a particular macro that doesn't need to do _quite_ as much work in display mode as in a regular compilation (check for `#if display`).
 
 ### How do I disable it?
 
