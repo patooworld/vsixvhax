@@ -1,12 +1,14 @@
 For completion to still be usably in medium to large projects, vshaxe relies on a "Completion Cache". Essentially, it uses the `.hxml` you provided in your [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) to build the project through the Haxe display server once on startup (with `--no-output`). This is also responsible for the slight delay until completion features are available initially.
 
+Note that the cache not only impacts the speed of [Completion](/vshaxe/vshaxe/wiki/Completion) itself, but also practically almost every other feature the Haxe Language Server provides as well, since they all rely on various [Compiler Services](https://haxe.org/manual/cr-completion.html).
+
 ### How to tell if the completion cache works?
 
 If everything goes well, you will see this in your Haxe Output Channel:
 
 [[images/completion-cache/good.png]]
 
-However, if your project has compiler errors at the time the Haxe language server is started, or the provided `.hxml` is just not suitable for building, you will see something like this instead:
+However, if your project has compiler errors at the time the Haxe Language Server is started, or the provided `.hxml` is just not suitable for building, you will see something like this instead:
 
 [[images/completion-cache/bad.png]]
 
@@ -14,7 +16,7 @@ In this case, you can try fixing the error and invoke the ["Restart Language Ser
 
 ### How big is the impact?
 
-To illustrate the kind of difference the Completion Cache can make, here's a before/after with an (empty) HaxeFlixel project (using [--times completion](/vshaxe/vshaxe/wiki/Completion#--times-completion)).
+To illustrate the kind of difference the Completion Cache can make, here's a before / after of field completion in an (empty) HaxeFlixel project (using [--times completion](/vshaxe/vshaxe/wiki/Completion#--times-completion)).
 
 **Before:**
 
@@ -24,7 +26,7 @@ To illustrate the kind of difference the Completion Cache can make, here's a bef
 
 [[images/completion-cache/after.png]]
 
-Needless to say, a completion request taking over well over half a second severely impacts the flow while programming. With under 100 ms however, it feels is quite responsive.
+Needless to say, a completion request taking over well over half a second severely impacts any kind of flow you might otherwise achieve while programming. With under 100 ms however, it feels is quite responsive.
 
 ### Can I make completion even faster?
 
