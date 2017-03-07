@@ -1,5 +1,5 @@
 The vshaxe extension adds the following commands. You can invoke them by pressing <kbd>F1</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and
-typing part of the command name. All commands are prefixed with `Haxe:`:
+typing part of the command name. All commands are prefixed with `Haxe`:
 
 ### Haxe: Initialize VS Code Project...
 
@@ -11,7 +11,7 @@ to generate `.vscode` workspace folder with the build task and example vshaxe co
 Restarts language server and Haxe completion server. Use if anything goes wrong or to reload haxe-languageserver code
 when developing.
 
-Known issues: a new Haxe output channel is added on each restart ([#87](https://github.com/vshaxe/vshaxe/issues/87)).
+**Known issues:** a new Haxe output channel is added on each restart ([#87](https://github.com/vshaxe/vshaxe/issues/87)).
 
 ### Haxe: Select Display Configuration...
 
@@ -25,4 +25,4 @@ Runs diagnostics (unused import / dead code detection) on all files in the works
 
 En/disables Haxe [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens) in your [Configuration](/vshaxe/vshaxe/wiki/Configuration) by flipping the `"haxe.enableCodeLens"` setting.
 
-Known issues: Code Lens only refresh after editing the current file ([#95](https://github.com/vshaxe/vshaxe/issues/95)).
+**Known issues:** Code Lens only refresh after editing the current file ([#95](https://github.com/vshaxe/vshaxe/issues/95)).
