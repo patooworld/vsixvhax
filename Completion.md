@@ -2,7 +2,7 @@
 
 The simplest and most commonly used form of completion is field / "dot" completion. It is invoked whenever a dot is typed after an identifier to show the available variables, properties and methods for it:
 
-[[images/completion/field]]
+[[images/completion/field.png]]
 
 ### Toplevel Completion
 
@@ -22,7 +22,7 @@ Whenever `@:` is typed, a list of [compiler metadata](https://haxe.org/manual/cr
 
 ### Structure Completion
 
-When calling a function that accepts a structure type as an argument, you can get completion for structure fields by manually invoking completion (<kbd>Ctrl</kbd>+<kbd>Space</kbd>):
+When calling a function that accepts a structure type as an argument, you can get completion for its fields by manually invoking completion (<kbd>Ctrl</kbd>+<kbd>Space</kbd>):
 
 [[images/completion/struct.png]]
 
@@ -30,6 +30,6 @@ When calling a function that accepts a structure type as an argument, you can ge
 
 ### `--times` Completion
 
-When you add `--times` (and `-D macro-times`) to your completion `.hxml` (see also: [Display Configurations](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server)), the times are shown at the top of field and toplevel completion for convenience. This is useful for debugging completion speeds, which can be heavily impacted by careless use of macros or be much slower than it should be if your [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) isn't working.
+When you add `--times` (and optionally `-D macro-times`) to your completion `.hxml` (see also: [Display Configurations](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server)), the times are shown at the top of field and toplevel completion for convenience. This is useful for debugging completion speeds, which can be heavily impacted by careless use of macros or be much slower than they should be if your [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) isn't working.
 
 [[images/completion/times.png]]
