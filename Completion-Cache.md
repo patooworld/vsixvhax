@@ -50,4 +50,6 @@ Add this to your settings to disable completion caching entirely (for instance i
 
 ### Why is a "real" build needed for caching?
 
-The Completion Sever can't cache any results during display requests. In display mode, the compiler relies on some tricks and simplifications to return as quickly as possible, however, this means that results are not useful for caching.
+The Completion Sever can't cache any results during regular display requests (e.g. "show me the fields for this identifier"). In display mode, the compiler relies on some tricks and simplifications to return as quickly as possible. Unfortunately, this also means that results are not useful for caching and have to be thrown away again.
+
+However, with many display requests, this quickly adds up to a lot of redundant work, and overall _worse_ performance compared to taking the time to build a proper cache once on startup.
