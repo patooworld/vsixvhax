@@ -6,10 +6,12 @@ typing part of the command name. All commands are prefixed with `Haxe`:
 Scaffolds a very basic Haxe project in an empty workspace. Can also be used on an existing project with `.hxml` files
 to generate `.vscode` workspace folder with the build task and example vshaxe configuration.
 
+[[images/commands/initialize-vscode-project.gif]]
+
 ### Haxe: Restart Language Server
 
-Restarts language server and Haxe completion server. Use if anything goes wrong or to reload haxe-languageserver code
-when developing.
+Restarts the language server and the Haxe completion server. Use it if anything goes wrong or to reload haxe-languageserver's code
+after recompiling it.
 
 **Known issues:** a new Haxe output channel is added on each restart ([#87](https://github.com/vshaxe/vshaxe/issues/87)).
 
@@ -26,5 +28,7 @@ Runs diagnostics (unused import / dead code detection) on all files in the works
 ### Haxe: Toggle Code Lens
 
 En/disables Haxe [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens) in your [Configuration](/vshaxe/vshaxe/wiki/Configuration) by flipping the `"haxe.enableCodeLens"` setting.
+
+[[images/commands/toggle-code-lens.gif]]
 
 **Known issues:** Code Lens only refresh after editing the current file ([#95](https://github.com/vshaxe/vshaxe/issues/95)).
