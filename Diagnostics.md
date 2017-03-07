@@ -1,4 +1,4 @@
-"Diagnostics" are what may be responsible for red or green squiggly lines you may have seen in your code while typing (note that the problem matcher when running a [build task](/vshaxe/vshaxe/wiki/Build-Tasks) can also add these, however).
+"Diagnostics" are what may be responsible for red or green squiggly lines you may have seen in your code (note that the problem matcher when running a [build task](/vshaxe/vshaxe/wiki/Build-Tasks) can also add these, however).
 
 [[images/diagnostics/invalid.png]]
 
@@ -21,3 +21,22 @@ Diagnostics can not only inform you about invalid, but also unused code. One exa
 Another example are unused local variables and expressions whose values are not used for anything:
 
 [[images/diagnostics/no-effect.png]]
+
+Many Diagnostics have one or multiple Code Actions associated with them. A comprehensive list of available Code Actions can be found [here](/vshaxe/vshaxe/wiki/Code-Actions).
+
+### Configuration
+
+There are two settings that influence the behavior of Diagnostics:
+
+- "haxe.enableDiagnostics" - Controls whether Diagnostics should be shown at all. Defaults to `true`.
+- "haxe.diagnosticsPathFilter" - A regex that is matched against file paths. Diagnostics for files not matching the filter are hidden.
+
+  The default filter is `"${workspaceRoot}"`, which means Diagnostics are only shown for files in the current workspace (`${workspaceRoot}` is replaced with the current workspace's path). This means that Diagnostics won't be shown for files in your Haxelib directory, for instance. If you are for instance the author of a Haxelib and do want to see Diagnostics for Haxelibs as well, you can effectively disable the filter by making it match everything (`".*?"`).
+
+  For some projects, it makes sense to restrict the filter even further than `"${workspaceRoot}"`, e.g. to `"${workspaceRoot}/Source"` in OpenFL projects. Lime generates some `.hx` files into the `Export` directory, which you may want to hide.
+
+  Apart from `${workspaceRoot}`, there's also a second variable available in filters: `${haxelibPath}`. You could use this to show Diagnostics only for the current workspace and a specific haxelib, for instance:
+
+  ```regex
+  (${workspaceRoot}|${haxelibPath}/compiletime)
+  ```
