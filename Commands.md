@@ -21,13 +21,13 @@ Choose the currently active display configuration (see [Configuration](https://g
 
 ### Haxe: Run Global Diagnostics Check
 
-Runs diagnostics (unused import / dead code detection) on all files in the workspace.
+Runs [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics) on all files in the workspace.
 
 **Known issues:** It's not obvious when a global diagnostics run has finished, since the problems view is not opened afterwards ([#38](https://github.com/vshaxe/vshaxe/issues/38)).
 
 ### Haxe: Toggle Code Lens
 
-En/disables Haxe [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens) in your [Configuration](/vshaxe/vshaxe/wiki/Configuration) by flipping the `"haxe.enableCodeLens"` setting.
+En/disables Haxe [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens) in your [Configuration](/vshaxe/vshaxe/wiki/Configuration) by flipping the `"haxe.enableCodeLens"` setting.
 
 [[images/commands/toggle-code-lens-.gif]]
 
