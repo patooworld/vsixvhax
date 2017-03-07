@@ -36,7 +36,7 @@ there is more than one configuration provided in the `"haxe.displayConfiguration
 when a `.hx` file is open, a selection appears in the status bar allowing to switch current
 display configuration:
 
-[[images/configs.gif]]
+[[images/configuration/configs.gif]]
 
 The same menu can also be shown by using `Haxe: Select Display Configuration` command from the command palette or a keybinding.
 
