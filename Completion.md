@@ -26,7 +26,7 @@ When calling a function that accepts a structure type as an argument, you can ge
 
 [[images/completion/struct.png]]
 
-**Known issues**: Structure completion is currently only enabled in function calls, because due to a compiler bug ([haxe#6005](https://github.com/HaxeFoundation/haxe/issues/6005)), it can cause the display server to hang.
+>**Known issues**: Structure completion is currently only enabled in function calls, because due to a compiler bug ([haxe#6005](https://github.com/HaxeFoundation/haxe/issues/6005)), it can cause the display server to hang.
 
 ### `--times` Completion
 

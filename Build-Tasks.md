@@ -29,6 +29,6 @@ The `"problemMatcher"` is for detecting compiler errors in the terminal output. 
 
 [[images/build-tasks/error.png]]
 
-**Known issues:** Haxe sometimes outputs relative and sometimes absolute paths, but the problem matcher can only be configured to accept one at a time ([#23](https://github.com/vshaxe/vshaxe/issues/23)).
+>**Known issues:** Haxe sometimes outputs relative and sometimes absolute paths, but the problem matcher can only be configured to accept one at a time ([#23](https://github.com/vshaxe/vshaxe/issues/23)).
 
 For further information on the `tasks.json` format, please refer to the [official VSCode documentation](https://code.visualstudio.com/docs/editor/tasks). A section that should be particularly interesting for usage with Haxe is the ability to define [multiple tasks](https://code.visualstudio.com/docs/editor/tasks#_command-and-tasks) (think multiple targets).
