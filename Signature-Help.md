@@ -12,6 +12,6 @@ Signature Help doesn't only work for methods, but also [enum constructors that h
 
 [[images/signature-help/enum.png]]
 
-If a method has overloads (only possible in [externs](https://haxe.org/manual/lf-externs.html) in Haxe), you can use the up and down keys to switch between them:
+If a method has overloads (only possible with [externs](https://haxe.org/manual/lf-externs.html) in Haxe), you can use the <kbd>▲</kbd> and <kbd>▼</kbd> keys to switch between them:
 
 [[images/signature-help/overloads.gif]]
