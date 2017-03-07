@@ -39,3 +39,10 @@ display configuration:
 [[images/configs.gif]]
 
 The same menu can also be shown by using `Haxe: Select Display Configuration` command from the command palette or a keybinding.
+
+### Feature-specific configuration
+
+For configuration of specific features, please refer to the specific sub-pages:
+
+- [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache#how-do-i-disable-it)
+- [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics#configuration)
