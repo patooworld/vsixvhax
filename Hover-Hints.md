@@ -1,6 +1,6 @@
 Hover Hints tell you the type of arbitrary expressions you place your mouse cursor over:
 
-[[images/hover-hints/simple.png]]
+[[images/hover-hints/demo.gif]]
 
 This feature works very well with [Type Inference](https://haxe.org/manual/type-system-type-inference.html). One of the biggest arguments against type inference it is that be code becomes less readable without explicit type hints. However, if the type is just one mouse movement away, this argument loses some validity.
 
