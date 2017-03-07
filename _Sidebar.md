@@ -9,6 +9,7 @@
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
 - [Completion Cache](https://github.com/vshaxe/vshaxe/wiki/Completion-Cache)
+- [Signature Help](https://github.com/vshaxe/vshaxe/wiki/Signature-Help)
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
 - [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
 - [Peek Definition](https://github.com/vshaxe/vshaxe/wiki/Peek-Definition)
