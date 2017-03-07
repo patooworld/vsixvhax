@@ -1,4 +1,4 @@
-Here is an example `tasks.json` file:
+Here is an example `tasks.json` file for your `.vscode/` workspace:
 
 ```json
 {
