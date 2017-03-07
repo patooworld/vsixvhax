@@ -15,9 +15,10 @@
 - [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
 - [Peek Definition](https://github.com/vshaxe/vshaxe/wiki/Peek-Definition)
 - [Find All References](https://github.com/vshaxe/vshaxe/wiki/Find-All-References)
-- [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
 - [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols)
 - [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
+- [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
+- [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 
