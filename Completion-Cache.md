@@ -1,4 +1,4 @@
-For completion to still be usably in medium to large projects, vshaxe relies on a "Completion Cache". Essentially, it uses the `.hxml` you provided in your Display Configuration to build the project through the Haxe display server once on startup (with `--no-output`). This is also responsible for the slight delay until completion features are available initially.
+For completion to still be usably in medium to large projects, vshaxe relies on a "Completion Cache". Essentially, it uses the `.hxml` you provided in your [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) to build the project through the Haxe display server once on startup (with `--no-output`). This is also responsible for the slight delay until completion features are available initially.
 
 ### How to tell if the completion cache works?
 
@@ -9,6 +9,8 @@ If everything goes well, you will see this in your Haxe Output Channel:
 However, if your project has compiler errors at the time the Haxe language server is started, or the provided `.hxml` is just not suitable for building, you will see something like this instead:
 
 [[images/completion-cache/bad.png]]
+
+In this case, you can try fixing the error and invoke the ["Restart Language Server"](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
 
 ### How big is the impact?
 
@@ -43,3 +45,7 @@ Add this to your settings to disable completion caching entirely (for instance i
 ```
 "haxe.buildCompletionCache": false
 ```
+
+### Why is a "real" build needed for caching?
+
+The Completion Sever can't cache any results during display requests. In display mode, the compiler relies on some tricks and simplifications to return as quickly as possible, however, this means that results are not useful for caching.
