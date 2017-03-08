@@ -10,7 +10,25 @@ In case you want to change the default shortcut, the `command` for this keybindi
 
 In the following sections, we will showcase all Code Actions that are associated with [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics). There are also some Code Actions for [Code Generation](/vshaxe/vshaxe/wiki/Code-Generation), please refer to that page for details on those.
 
+### Import actions
+
+There are some code actions to deal with importing unknown identifiers. A proper "auto-import" (adding an import automatically when a type is selected from the completion list) is still planned, however, as this is not a perfect replacement for it (see [#2](/vshaxe/vshaxe/issues/2)).
+
+>**Known issues:**
+> - An import suggestion can only appear for types that are being compiled ([#96](https://github.com/vshaxe/vshaxe/issues/96)). If the compiler never comes across a particular type (if it is not imported from anywhere), it cannot be suggested.
+> - Import suggestions are currently not triggered in some places, for instance in class fields ([haxe#5950](https://github.com/HaxeFoundation/haxe/issues/5950), [haxe#5951](https://github.com/HaxeFoundation/haxe/issues/5951)).
+
+#### Add import
+
+[[images/code-actions/add-import.gif]]
+
+#### Change to fully qualified type
+
+[[images/code-actions/fully-qualified.gif]]
+
 ### Actions for unused code
+
+There are several code actions that deal with removing unused code:
 
 #### Remove unused import/using
 
