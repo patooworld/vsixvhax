@@ -19,8 +19,8 @@
 - [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
 - [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
-- [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
+- [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 
 **Debugging**
 
