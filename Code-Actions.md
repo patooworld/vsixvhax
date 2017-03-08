@@ -12,7 +12,7 @@ In the following sections, we will showcase all Code Actions that are associated
 
 ### Import actions
 
-There are some code actions to deal with importing unknown identifiers. A proper "auto-import" (adding an import automatically when a type is selected from the completion list) is still planned, however, as this is not a perfect replacement for it (see [#2](/vshaxe/vshaxe/issues/2)).
+There are some code actions to deal with importing unknown identifiers. A proper "auto-import" (adding an import automatically when a type is selected from the completion list) is still planned, however, as this is not a perfect replacement for it (see [#2](/vshaxe/vshaxe/issues/2)). Beyond that, there are also plans to add more import-related code actions ([#97](https://github.com/vshaxe/vshaxe/issues/97)).
 
 >**Known issues:**
 > - An import suggestion can only appear for types that are being compiled ([#96](https://github.com/vshaxe/vshaxe/issues/96)). If the compiler never comes across a particular type (if it is not imported from anywhere), it cannot be suggested.
