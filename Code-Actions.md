@@ -41,3 +41,15 @@ There are several code actions that deal with removing unused code:
 #### Remove unused variable
 
 [[images/code-actions/unused-var.gif]]
+
+#### Compiler error actions
+
+In some cases, simple compiler errors can be fixed via a Code Action:
+
+#### Invalid package
+
+[[images/code-actions/invalid-package.gif]]
+
+#### Typo suggestions
+
+[[images/code-actions/typo-suggestion.gif]]
