@@ -14,12 +14,16 @@ Code Lens are not just a fancier "Find All References" however. They also includ
 
 - subclasses of classes
 
-  [[images/code-lens/subclass.png]]
+  [[images/code-lens/subclasses.png]]
+
+- overrides of methods
+
+  [[images/code-lens/overrides.png]]
 
 - implementers of interfaces
 
-  [[images/code-lens/subclass.png]]
+  [[images/code-lens/implementers.png]]
 
 - subinterfaces of interfaces
 
-  [[images/code-lens/subinterface.png]]
+  [[images/code-lens/subinterfaces.png]]
