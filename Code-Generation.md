@@ -16,7 +16,7 @@ When generating parameter names, vshaxe has to "take a best guess" based on the 
 
 ### Configuration
 
-How a generated anonymous function looks like can be customized. The default settings look like this:
+How a generated anonymous function looks can be customized. The default settings look like this:
 
 ```js
 "haxe.codeGeneration": {
