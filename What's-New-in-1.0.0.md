@@ -4,25 +4,25 @@ Version 1.0.0 is the biggest release of vshaxe to date. Here's a quick overview 
 
 When referencing a type not yet imported, you can trigger a code action to do just that.
 
-![](http://i.imgur.com/JyIlDDk.gif)
+[[images/release-1.0.0/import-action.gif]]
 
 Alternatively, you may also use "Change to" to use the fully qualified path instead:
 
-![](http://i.imgur.com/jvWF3gT.gif)
+[[images/release-1.0.0/change-to-action.gif]]
 
 On the other hand, if you have _unused_ imports or usings, you can remove them with a single action:
 
-![](http://i.imgur.com/AurAeFE.gif)
+[[images/release-1.0.0/unused-import.gif]]
 
 In the same fashion, you can remove code doesn't do anything, like unused variables:
 
-![](http://i.imgur.com/HxeXtfJ.gif)
+[[images/release-1.0.0/unused-var.gif]]
 
 ### Completion Cache
 
 When starting up, vshaxe now builds a completion cache. For projects with large dependencies, this can make a huge difference - for instance, the field completion response time went from ~750 ms to just around 100 ms in an empty Flixel project.
 
-![](http://i.imgur.com/IHelA6C.gif)
+[[images/release-1.0.0/completion-cache.gif]]
 
 You can see the difference by disabling the completion cache (`"haxe.buildCompletionCache": false`) and restarting vshaxe. Note: add `--times` to your `.hxml` to see the completion times.
 
@@ -30,38 +30,38 @@ You can see the difference by disabling the completion cache (`"haxe.buildComple
 
 Completion now triggers on `@` to provide completion for compiler metadata:
 
-![](http://i.imgur.com/KPguJJC.gif)
+[[images/release-1.0.0/metadata-completion.gif]]
 
 Similarly, `:` now triggers type hint completion:
 
-![](http://i.imgur.com/b5p6xny.gif)
+[[images/release-1.0.0/type-hint-completion.gif]]
 
 And finally, you can get completion for structure fields:
 
-![](http://i.imgur.com/SIhmJzG.gif)
+[[images/release-1.0.0/struct-completion.gif]]
 
 ### Workspace Symbols
 
 With `Ctrl+T`, you can now search for symbols project-wide, including Haxelib dependencies and the standard library.
 
-![](http://i.imgur.com/OYuc21X.gif)
+[[images/release-1.0.0/workspace-symbols.gif]]
 
 ### Hover Hints
 
 Hover hints now include documentation and support Markdown formatting. JavaDoc comments are parsed and formatted accordingly.
 
-![](http://i.imgur.com/KQsibfO.gif)
+[[images/release-1.0.0/hover-formatting.gif]]
 
 Hover hints now also work on compiler metadata.
 
-![](http://i.imgur.com/6eqwSKG.gif)
+[[images/release-1.0.0/hover-hints-meta.gif]]
 
 ### Code Lens
 
-Code Lens tell you how often a field is referenced, how often a function has been overriden, how often an interface has been implemented etc. at one quick glance:
+Code Lens tell you how often a field is referenced, how often a function has been overridden, how often an interface has been implemented etc. at one quick glance:
 
-![](http://i.imgur.com/KzwbrnE.gif)
+[[images/release-1.0.0/code-lens.gif]]
 
-![](http://i.imgur.com/W172kIV.gif)
+[[images/release-1.0.0/code-lens-2.gif]]
 
 Right now, this feature is opt-in and needs to be enabled with `"haxe.enableCodeLens": true`.
