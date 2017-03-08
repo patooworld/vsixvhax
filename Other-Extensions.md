@@ -2,13 +2,13 @@ Beyond vshaxe itself (and the other extensions included in our [Haxe Extension P
 
 ### vscode-icons
 
-The popular [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) icon theme supports a number of icons for common file formats in the Haxe world:
+The popular [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) icon theme supports a number of file formats that are common in the Haxe world:
 
 [[images/other-extensions/vscode-icons.png]]
 
 ### Project Manager
 
-Despite not having any Haxe-specific features, [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) is an invaluable tool when working on many different projects, as it allows you to quickly switch between them:
+Despite not having any Haxe-specific features, [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) is an invaluable tool when working on many different projects (especially in the absence of [official support for opening multiple projects in one window](https://github.com/Microsoft/vscode/issues/396)), as it allows you to quickly switch between them:
 
 [[images/other-extensions/project-manager.png]]
 
