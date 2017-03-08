@@ -4,7 +4,7 @@ Hover Hints tell you the type of arbitrary expressions you place your mouse curs
 
 This feature works very well with [Type Inference](https://haxe.org/manual/type-system-type-inference.html). One of the biggest arguments against type inference it is that code becomes less readable without explicit type hints. However, if the type is just one mouse movement away, this argument loses some validity.
 
-Hover Hints are also a great way to check documentation. They support both markdown and JavaDoc formatting:
+Hover Hints are also a great way to check documentation. They support both markdown and JavaDoc/JSDoc formatting:
 
 [[images/hover-hints/markdown.png]]
 
