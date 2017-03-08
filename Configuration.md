@@ -40,6 +40,35 @@ display configuration:
 
 The same menu can also be shown by using `Haxe: Select Display Configuration` command from the command palette or a keybinding.
 
+### Display Port
+
+You can use the `"haxe.displayPort"` setting to instruct vshaxe to make its Haxe completion server reachable via a specific port. This is useful when you want to also _build_ your project using the completion server. Doing so has two main advantages:
+
+- Builds are much faster, since they can benefit from caching
+- Completion itself also benefits, since by building, the [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) will be updated
+
+Here's an example using port `6000`:
+
+```js
+"haxe.displayPort": 6000
+```
+
+For Haxe to actually use the Compilation Server, you have to tell it with with port it can be reached. This is done by adding `--connect <port>` to your `build.hxml` file:
+
+```
+--connect 6000
+```
+
+The configuration for this varies if you are using a framework with a different build system. For instance with OpenFL, you'd have to add this to your `project.xml`:
+
+```xml
+<haxeflag name="--connect" value="6000" />
+```
+
+>**Known issues:** 
+>- Configuration using a specific port is not very convenient, since this breaks down as soon as you have multiple VSCode windows open (and would need to specify different ports for each workspace). We are looking for ways to improve this in the future ([#79](https://github.com/vshaxe/vshaxe/issues/79)).
+>- The Haxe Compilation Server is known to have some issues, several of which are reported on the Haxe repo and might be resolved in the future. If you encounter weird compiler errors that don't happen in a regular compilation, you might want to avoid building through the completion server.
+
 ### Feature-specific configuration
 
 For configuration of specific features, please refer to their respective sub-pages:
