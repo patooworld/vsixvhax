@@ -2,7 +2,7 @@ Version 1.0.0 is the biggest release of vshaxe to date. Here's a quick overview 
 
 ### Code Actions
 
-When referencing a type not yet imported, you can trigger a code action to do just that.
+When referencing a type not yet imported, you can trigger a [Code Action](/vshaxe/vshaxe/wiki/Code-Actions) to do just that.
 
 [[images/release-1.0.0/import-action.gif]]
 
@@ -20,7 +20,7 @@ In the same fashion, you can remove code doesn't do anything, like unused variab
 
 ### Completion Cache
 
-When starting up, vshaxe now builds a completion cache. For projects with large dependencies, this can make a huge difference - for instance, the field completion response time went from ~750 ms to just around 100 ms in an empty Flixel project.
+When starting up, vshaxe now builds a [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache). For projects with large dependencies, this can make a huge difference - for instance, the field completion response time went from ~750 ms to just around 100 ms in an empty Flixel project.
 
 [[images/release-1.0.0/completion-cache.gif]]
 
@@ -28,7 +28,7 @@ You can see the difference by disabling the completion cache (`"haxe.buildComple
 
 ### Completion
 
-Completion now triggers on `@` to provide completion for compiler metadata:
+[Completion](/vshaxe/vshaxe/wiki/Completion) now triggers on `@` to provide completion for compiler metadata:
 
 [[images/release-1.0.0/metadata-completion.gif]]
 
@@ -42,13 +42,13 @@ And finally, you can get completion for structure fields:
 
 ### Workspace Symbols
 
-With `Ctrl+T`, you can now search for symbols project-wide, including Haxelib dependencies and the standard library.
+With <kbd>Ctrl</kbd>+<kbd>T</kbd>, you can now search for [symbols project-wide](/vshaxe/vshaxe/wiki/Workspace-Symbols), including Haxelib dependencies and the standard library.
 
 [[images/release-1.0.0/workspace-symbols.gif]]
 
 ### Hover Hints
 
-Hover hints now include documentation and support Markdown formatting. JavaDoc comments are parsed and formatted accordingly.
+[Hover Hints](/vshaxe/vshaxe/wiki/Hover-Hints) now include documentation and support Markdown formatting. JavaDoc comments are parsed and formatted accordingly.
 
 [[images/release-1.0.0/hover-formatting.gif]]
 
@@ -58,7 +58,7 @@ Hover hints now also work on compiler metadata.
 
 ### Code Lens
 
-Code Lens tell you how often a field is referenced, how often a function has been overridden, how often an interface has been implemented etc. at one quick glance:
+[Code Lens](/vshaxe/vshaxe/wiki/Code-Lens) tell you how often a field is referenced, how often a function has been overridden, how often an interface has been implemented etc. at one quick glance:
 
 [[images/release-1.0.0/code-lens.gif]]
 
