@@ -47,3 +47,4 @@ For configuration of specific features, please refer to their respective sub-pag
 - [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache#how-do-i-disable-it)
 - [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics#configuration)
 - [Code Generation](/vshaxe/vshaxe/wiki/Code-Generation#configuration)
+- [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens)
