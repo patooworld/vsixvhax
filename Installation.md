@@ -22,7 +22,7 @@ If you want to contribute to vshaxe, or just prefer working directly from source
     haxelib run vshaxe-build --target vshaxe --debug --mode both
     ```
 
-6. After modifying and rebuilding language server, reload it with the `Haxe: Restart language server` command (`Ctrl+Shift+P` to open the command palette).
+6. After modifying and rebuilding language server, reload it with the [Haxe: Restart language server](/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command (`Ctrl+Shift+P` to open the command palette).
 7. After modifying and rebuilding the extension itself, restart VSCode, reload the window or run a debug instance with F5 ([standard vscode workflow](https://code.visualstudio.com/docs/extensions/debugging-extensions)).
 
 Also to be sure to check out the [vshaxe-debug-tools](https://github.com/vshaxe/vshaxe-debug-tools) extension, which includes some tools to aid the development of vshaxe.

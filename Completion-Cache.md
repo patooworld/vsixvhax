@@ -12,7 +12,7 @@ However, if your project has compiler errors at the time the Haxe Language Serve
 
 [[images/completion-cache/bad.png]]
 
-In this case, you can try fixing the error and invoke the ["Restart Language Server"](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
+In this case, you can try fixing the error and invoke the [Restart Language Server](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
 
 ### How big is the impact?
 

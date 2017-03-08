@@ -21,7 +21,7 @@ Here is an example `tasks.json` file for your `.vscode/` workspace:
 }
 ```
 
-This is the same `tasks.json` file that will be generated when using the ["Initialize VS Code Project..."](/vshaxe/vshaxe/wiki/Commands#haxe-initialize-vs-code-project) command. Pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> will run `haxe build.hxml` and trace any output to the Terminal that is opened:
+This is the same `tasks.json` file that will be generated when using the [Initialize VS Code Project...](/vshaxe/vshaxe/wiki/Commands#haxe-initialize-vs-code-project) command. Pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> will run `haxe build.hxml` and trace any output to the Terminal that is opened:
 
 [[images/build-tasks/terminal.png]]
 

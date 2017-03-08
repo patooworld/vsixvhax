@@ -12,7 +12,7 @@ Diagnostics are incredibly useful since they are updated each time you save, and
 
 Since Diagnostics are updated on save, they combo very well with the `"files.autoSave": "afterDelay"` setting.
 
-You can also run Diagnostics over all files in the current project by using the ["Run Global Diagnostics Check"](/vshaxe/vshaxe/wiki/Commands#haxe-run-global-diagnostics-check) command.
+You can also run Diagnostics over all files in the current project by using the [Run Global Diagnostics Check](/vshaxe/vshaxe/wiki/Commands#haxe-run-global-diagnostics-check) command.
 
 Diagnostics can not only inform you about invalid, but also unused code. One example for this are unused imports and usings:
 
