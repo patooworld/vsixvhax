@@ -9,3 +9,17 @@ Alternatively, you can use the ["Haxe: Toggle Code Lens"](/vshaxe/vshaxe/wiki/Co
 Once enabled, Code Lens tells you how often a particular field or type is referenced, similar to [Find All References](/vshaxe/vshaxe/wiki/Find-All-References). As such, it also has the same limitations as "Find All References" ([#96](/vshaxe/vshaxe/issues/96)).
 
 [[images/code-lens/references.gif]]
+
+Code Lens are not just a fancier "Find All References" however. They also include the following information:
+
+- subclasses of classes
+
+  [[images/code-lens/subclass.png]]
+
+- implementers of interfaces
+
+  [[images/code-lens/subclass.png]]
+
+- subinterfaces of interfaces
+
+  [[images/code-lens/subinterface.png]]
