@@ -13,7 +13,7 @@ However, instead of installing vshaxe directly, you might want to consider insta
 If you want to contribute to vshaxe, or just prefer working directly from source, you can follow these steps to install vshaxe from GitHub:
 
 1. Navigate to the extensions folder (`C:\Users\<username>\.vscode\extensions` on Windows, `~/.vscode/extensions` otherwise)
-2. _Recursively_ clone this repo: `git clone --recursive https://github.com/vshaxe/vshaxe`.
+2. **Recursively** clone this repo: `git clone --recursive https://github.com/vshaxe/vshaxe`.
 3. Change current directory to the cloned one: `cd vshaxe`.
 4. Install the build tool: `haxelib git vshaxe-build https://github.com/vshaxe/vshaxe-build`
 5. To build both client and server in debug mode (as well as install all dependencies):
@@ -21,8 +21,12 @@ If you want to contribute to vshaxe, or just prefer working directly from source
     ```
     haxelib run vshaxe-build --target vshaxe --debug --mode both
     ```
+  
+    After initially building _and_ installing the dependencies (with `--mode both`), the usual workflow is to only _rebuild_ vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
 
-6. After modifying and rebuilding language server, reload it with the [Haxe: Restart language server](/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command (`Ctrl+Shift+P` to open the command palette).
-7. After modifying and rebuilding the extension itself, restart VSCode, reload the window or run a debug instance with F5 ([standard vscode workflow](https://code.visualstudio.com/docs/extensions/debugging-extensions)).
+  [[images/installation/build-task.png]]
+
+6. To test changes to the Haxe Language Server, you can reload it with the [Haxe: Restart language server](/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
+7. To test chanages to the extension itself, restart VSCode, reload the window or run a debug instance with <kbd>F5</kbd> ([standard vscode workflow](https://code.visualstudio.com/docs/extensions/debugging-extensions)).
 
 Also to be sure to check out the [vshaxe-debug-tools](https://github.com/vshaxe/vshaxe-debug-tools) extension, which includes some tools to aid the development of vshaxe.
