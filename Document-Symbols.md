@@ -2,6 +2,6 @@ Document Symbols provide an outline for the current `.hx` module, including type
 
 [[images/document-symbols/document-symbols.png]]
 
-You can enter a `:` after the `@` to display the symbols ordered by type:
+You can enter a `:` after the `@` to display the symbols ordered by symbol kind:
 
 [[images/document-symbols/by-type.png]]
