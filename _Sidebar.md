@@ -23,10 +23,11 @@
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 
-**Debugging**
+<!--**Debugging**
 
 - [JavaScript](https://github.com/vshaxe/vshaxe/wiki/JavaScript-Debugging)
 - [Flash](https://github.com/vshaxe/vshaxe/wiki/Flash-Debugging)
+-->
 
 **Releases**
 
