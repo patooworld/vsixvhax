@@ -6,7 +6,7 @@ There are a lot of plans and ideas for Code Generation, but as it stands, there 
 
 [[images/code-generation/anon-function.gif]]
 
-When generating parameter names, vshaxe has to "take a best guess" based on the parameter types, as function types in Haxe do not include parameter names. It follows the following rules:
+When generating parameter names, vshaxe has to "take a best guess" based on the parameter types, as function types in Haxe do not include parameter names. Argument name guessing follows these rules:
 
 - For `Int`, `Float`, `Bool` and `String`, use single letter-names (`i`, `f`, `b`, `s`)
 - For camel-case names (e.g. `BalancedTree`), use the last segment (`tree`)
@@ -16,3 +16,34 @@ When generating parameter names, vshaxe has to "take a best guess" based on the 
 
 ### Configuration
 
+How a generated anonymous function looks like can be customized. The default settings look like this:
+
+```js
+"haxe.codeGeneration": {
+    "functions": {
+        "anonymous": {
+            "argumentTypeHints": false,
+            "returnTypeHint": "never"
+        }
+    }
+}
+```
+
+The default behavior is to not include any type hints for arguments or return types. Perhaps you prefer a configuration that looks like this instead:
+
+```js
+"haxe.codeGeneration": {
+    "functions": {
+        "anonymous": {
+            "argumentTypeHints": true,
+            "returnTypeHint": "always"
+        }
+    }
+}
+```
+
+Which will lead to this behavior:
+
+[[images/code-generation/anon-function-with-types.gif]]
+
+Besides `"never"` and `"always"`, `"returnTypeHint"` has a third option: `"non-void"`. With this, the return type hint will only be added if the return type is not `Void`.
