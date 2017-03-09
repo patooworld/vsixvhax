@@ -4,7 +4,7 @@ If completion features still aren't working after configuring everything (see [D
 
 Output from the Haxe Language Server is logged to the Haxe Output Channel. Here's how to reach it and what it might look like when trying to access a class from a dependency vshaxe doesn't know about (missing `-lib json2object` in the display `.hxml` file):
 
-[[images/troubleshooting/output-channel.gif]]
+[[images/troubleshooting/output-channel-.gif]]
 
 You can get more verbose output by adding the `-v` flag to the compiler arguments in your `settings.json`:
 
