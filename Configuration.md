@@ -30,6 +30,8 @@ completion, such as `-cp`, `-lib`, `-D` and target output (`-js`, `-cpp`, etc.).
 specifying an `.hxml` file for completion: make sure it doesn't contain `-cmd`, `--next`, `--each` and other arguments
 not suitable for completion.
 
+#### Multiple Display Configurations
+
 Multiple display configurations are useful when working with a codebase that is meant
 to be compiled for different Haxe targets, or with a different set of defines. If
 there is more than one configuration provided in the `"haxe.displayConfigurations"` setting,
@@ -40,13 +42,24 @@ display configuration:
 
 The same menu can also be shown by using `Haxe: Select Display Configuration` command from the command palette or a keybinding.
 
+#### Changing the Working Directory
+
 Depending on the layout of your workspace, you may need to adjust the working directory from which display requests are sent to Haxe. This is the case when your Haxe project is nested within a subdirectory of your VSCode workspace, for instance (or if you are using [Kha](/vshaxe/vshaxe/wiki/Framework-Notes#kha)). You can do so by prefixing the `.hxml` file of your display configuration with a `--cwd` argument:
 
-```js
+```json
 {
     "haxe.displayConfigurations": [
         ["--cwd", "<directory>", "build.hxml"]
     ]
+}
+```
+
+The problem matcher of your [Build Task(s)](/vshaxe/vshaxe/wiki/Build-Tasks) will also need to be adjusted accordingly to still get the file paths right:
+
+```js
+"problemMatcher": {
+    "fileLocation": ["relative", "${workspaceRoot}/<directory>"],
+    // [...]
 }
 ```
 
