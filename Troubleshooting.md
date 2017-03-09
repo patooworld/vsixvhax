@@ -18,6 +18,6 @@ With this, the output channel will show the complete display requests sent to Ha
 
 [[images/troubleshooting/verbose.png]]
 
->**Note:** if your Haxe project is nested within a subdirectory of your VSCode workspace, you may need to adjust the working directory (`--cwd` argument) of your Display Configuration. This is explained [here](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server).
+>**Note:** if your Haxe project is nested within a subdirectory of your VSCode workspace, you may need to adjust the working directory (`--cwd` argument) of your Display Configuration. This is explained [here](/vshaxe/vshaxe/wiki/Configuration#changing-the-working-directory).
 
 If you're unable to solve whatever issues you are having after carefully reading the Setup documentation, don't hesitate to ask a question [on our issue tracker](https://github.com/vshaxe/vshaxe/issues/new).
