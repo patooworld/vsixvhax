@@ -40,6 +40,16 @@ display configuration:
 
 The same menu can also be shown by using `Haxe: Select Display Configuration` command from the command palette or a keybinding.
 
+Depending on the layout of your workspace, you may need to adjust the working directory from which display requests are sent to Haxe. This is the case when your Haxe project is nested within a subdirectory of your VSCode workspace, for instance (or if you are using [Kha](/vshaxe/vshaxe/wiki/Framework-Notes#kha)). You can do so by prefixing the `.hxml` file of your display configuration with a `--cwd` argument:
+
+```js
+{
+    "haxe.displayConfigurations": [
+        ["--cwd", "<directory>", "build.hxml"]
+    ]
+}
+```
+
 ### Display Port
 
 You can use the `"haxe.displayPort"` setting to instruct vshaxe to make its Haxe completion server reachable via a specific port. This is useful when you want to also _build_ your project using the completion server. Doing so has two main advantages:
