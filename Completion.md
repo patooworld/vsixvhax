@@ -20,14 +20,6 @@ Whenever `@:` is typed, a list of [compiler metadata](https://haxe.org/manual/cr
 
 [[images/completion/metadata.png]]
 
-### Structure Completion
-
-When calling a function that accepts a structure type as an argument, you can get completion for its fields by manually invoking completion (<kbd>Ctrl</kbd>+<kbd>Space</kbd>):
-
-[[images/completion/struct.png]]
-
->**Known issues**: Structure completion is currently only enabled in function calls, because due to a compiler bug ([haxe#6005](https://github.com/HaxeFoundation/haxe/issues/6005)), it can cause the display server to hang.
-
 ### `--times` Completion
 
 When you add `--times` (and optionally `-D macro-times`) to your completion `.hxml` (see also: [Display Configurations](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server)), the times are shown at the top of field and toplevel completion for convenience. This is useful for debugging completion speeds, which can be heavily impacted by careless use of macros or be much slower than they should be if your [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) isn't working.
