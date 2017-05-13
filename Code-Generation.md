@@ -1,4 +1,4 @@
-There are a lot of plans and ideas for Code Generation, but as it stands, there is only one [Code Action](/vshaxe/vshaxe/wiki/Code-Actions) is available for Code Generation:
+There are a lot of plans and ideas for Code Generation, but as it stands, there are only a couple [Code Action](/vshaxe/vshaxe/wiki/Code-Actions) available for Code Generation:
 
 ### Generate anonymous function
 
@@ -13,6 +13,12 @@ When generating parameter names, vshaxe has to "take a best guess" based on the 
 - For any duplicate names, add numbers at the end (`i1`, `i2`...) 
 
 >**Known issues:** if the parameter type is a `typedef` to a function type, vshaxe is at the moment unable to resolve the underlying function type and will not offer code generation ([#103](https://github.com/vshaxe/vshaxe/issues/103)).
+
+### Generate capture variables
+
+"Generate capture variables" is available for enum constructors after a `case` keyword, and can be used to fill in capture variables for all arguments:
+
+[[images/code-generation/capture-variables.gif]]
 
 ### Configuration
 
