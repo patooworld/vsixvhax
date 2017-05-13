@@ -29,7 +29,8 @@ How a generated anonymous function looks can be customized. The default settings
     "functions": {
         "anonymous": {
             "argumentTypeHints": false,
-            "returnTypeHint": "never"
+            "returnTypeHint": "never",
+            "useArrowSyntax": true
         }
     }
 }
@@ -42,7 +43,8 @@ The default behavior is to not include any type hints for arguments or return ty
     "functions": {
         "anonymous": {
             "argumentTypeHints": true,
-            "returnTypeHint": "always"
+            "returnTypeHint": "always",
+            "useArrowSyntax": true
         }
     }
 }
@@ -53,3 +55,5 @@ Which will lead to this behavior:
 [[images/code-generation/anon-function-with-types.gif]]
 
 Besides `"never"` and `"always"`, `"returnTypeHint"` has a third option: `"non-void"`. With this, the return type hint will only be added if the return type is not `Void`.
+
+`"useArrowSyntax"` defaults to `true`, but only actually comes into effect if a Haxe version >= 4.0.0 is used. It uses the new, shorter arrow function syntax from [HXP-0002](https://github.com/HaxeFoundation/haxe-evolution/blob/master/proposals/0002-arrow-functions.md).
