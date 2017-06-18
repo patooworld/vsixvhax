@@ -10,6 +10,7 @@
 **Features**
 
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
+- [Dependencies Explorer](https://github.com/vshaxe/vshaxe/wiki/Dependencies-Explorer)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
 - [Completion Cache](https://github.com/vshaxe/vshaxe/wiki/Completion-Cache)
 - [Signature Help](https://github.com/vshaxe/vshaxe/wiki/Signature-Help)
