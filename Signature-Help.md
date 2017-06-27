@@ -1,4 +1,6 @@
-Signature Help is shown whenever the opening `(` of a function call or the `,` after a function argument is typed. For instance, here it lets us know that `concat()` expects one argument, and that that argument is of type `Array<Int>`:
+Signature Help is shown whenever the opening `(` of a function call or the `,` after a function argument is typed. It can also be triggered manually with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd>. 
+
+In this example it lets us know that `concat()` expects one argument, and that that argument is of type `Array<Int>`:
 
 [[images/signature-help/concat.png]]
 
