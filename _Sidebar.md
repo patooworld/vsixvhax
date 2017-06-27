@@ -17,6 +17,7 @@
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
 - [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
 - [Peek Definition](https://github.com/vshaxe/vshaxe/wiki/Peek-Definition)
+- [Rename Symbol](https://github.com/vshaxe/vshaxe/wiki/Rename-Symbol)
 - [Find All References](https://github.com/vshaxe/vshaxe/wiki/Find-All-References)
 - [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols)
 - [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
