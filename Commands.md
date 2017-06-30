@@ -6,7 +6,7 @@ typing part of the command name. All commands are prefixed with `Haxe`:
 Scaffolds a very basic Haxe project in an empty workspace. Can also be used on an existing project with `.hxml` files
 to generate `.vscode` workspace folder with the build task and example vshaxe configuration.
 
-[[images/commands/initialize-vscode-project-.gif]]
+![](images/commands/initialize-vscode-project-.gif)
 
 ### Haxe: Restart Language Server
 
