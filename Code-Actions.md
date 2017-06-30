@@ -1,10 +1,10 @@
 When a Code Action is available for the current selection / cursor position, this is indicated by a light bulb to the left of the editor:
 
-[[images/code-actions/light-bulb.png]]
+![](images/code-actions/light-bulb.png)
 
 To show the available actions, either click the light bulb or press <kbd>Ctrl</kbd>+<kbd>.</kbd>. This will open a popup menu:
 
-[[images/code-actions/popup.png]]
+![](images/code-actions/popup.png)
 
 In case you want to change the default shortcut, the `command` for this keybinding is `"editor.action.quickFix"`.
 
@@ -20,11 +20,11 @@ There are some code actions to deal with importing unknown identifiers. A proper
 
 #### Add import
 
-[[images/code-actions/add-import.gif]]
+![](images/code-actions/add-import.gif)
 
 #### Change to fully qualified type
 
-[[images/code-actions/fully-qualified.gif]]
+![](images/code-actions/fully-qualified.gif)
 
 ### Actions for unused code
 
@@ -32,15 +32,15 @@ There are several code actions that deal with removing unused code:
 
 #### Remove unused import/using
 
-[[images/code-actions/unused-import.gif]]
+![](images/code-actions/unused-import.gif)
 
 #### Remove all unused imports/usings
 
-[[images/code-actions/unused-imports.gif]]
+![](images/code-actions/unused-imports.gif)
 
 #### Remove unused variable
 
-[[images/code-actions/unused-var.gif]]
+![](images/code-actions/unused-var.gif)
 
 >**Known issues:** if an unused variable is initialized with a value, this value will currently not be removed ([#35](https://github.com/vshaxe/vshaxe/issues/35)).
 
@@ -50,8 +50,8 @@ In some cases, simple compiler errors can be fixed via a Code Action:
 
 #### Invalid package
 
-[[images/code-actions/invalid-package.gif]]
+![](images/code-actions/invalid-package.gif)
 
 #### Typo suggestions
 
-[[images/code-actions/typo-suggestion.gif]]
+![](images/code-actions/typo-suggestion.gif)

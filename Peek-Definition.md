@@ -2,8 +2,8 @@
 
 The easiest way to use "Peek Definition" is hovering over an identifier while <kbd>Ctrl</kbd> is held down:
 
-[[images/peek-definition/peek.gif]]
+![](images/peek-definition/peek.gif)
 
 If you use the context menu or <kbd>Alt</kbd>+<kbd>F12</kbd>, the definition is expanded inline in the current document:
 
-[[images/peek-definition/peek-inline.gif]]
+![](images/peek-definition/peek-inline.gif)

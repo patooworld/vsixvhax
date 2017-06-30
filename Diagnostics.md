@@ -1,10 +1,10 @@
 "Diagnostics" are what may be responsible for red or green squiggly lines you may have seen in your code (note that the problem matcher when running a [build task](/vshaxe/vshaxe/wiki/Build-Tasks) can also add these, however).
 
-[[images/diagnostics/invalid.png]]
+![](images/diagnostics/invalid.png)
 
 Like errors during build tasks, Diagnostics are also shown in the Problems view:
 
-[[images/diagnostics/problems.png]]
+![](images/diagnostics/problems.png)
 
 Diagnostics are incredibly useful since they are updated each time you save, and hence provide real-time feedback over whether your code is valid or not. This way, you can usually tell whether your code will compile, even before actually doing so.
 
@@ -16,13 +16,13 @@ You can also run Diagnostics over all files in the current project by using the 
 
 Diagnostics can not only inform you about invalid, but also unused code. One example for this are unused imports and usings:
 
-[[images/diagnostics/unused-import.png]]
+![](images/diagnostics/unused-import.png)
 
 >**Known issues**: an import will be reported as "unused" if it is only used in another [Conditional Compilation](https://haxe.org/manual/lf-condition-compilation.html) branch that is not active with the current [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server). For instance, the imported type might only be used within an `#if cpp` - block, but you're currently targeting JavaScript. In this case, the import(s) should be wrapped in `#if cpp` as well to avoid the warning.
 
 Another example are unused local variables and expressions whose values are not used for anything:
 
-[[images/diagnostics/no-effect.png]]
+![](images/diagnostics/no-effect.png)
 
 Many Diagnostics have one or multiple Code Actions associated with them. A comprehensive list of available Code Actions can be found [here](/vshaxe/vshaxe/wiki/Code-Actions).
 

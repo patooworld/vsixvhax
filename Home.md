@@ -6,6 +6,6 @@ For anything that is not specific to vshaxe, check out the [official VSCode docu
 
 Happy coding!
 
-[[images/demo.gif]]
+![](images/demo.gif)
 
 P.S. Feel free to [open an issue](/vshaxe/vshaxe/issues/new) if you have any ideas on how this Wiki can be improved even further.

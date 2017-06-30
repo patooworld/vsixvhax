@@ -5,7 +5,7 @@
 
 The easiest way to install the latest vshaxe release is by searching the VSCode marketplace for "vshaxe":
 
-[[images/installation/marketplace.gif]]
+![](images/installation/marketplace.gif)
 
 Alternatively, press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install vshaxe`.
 
@@ -27,7 +27,7 @@ If you want to contribute to vshaxe, or just prefer working directly from source
   
     After initially building _and_ installing the dependencies (with `--mode both`), the usual workflow is to only _rebuild_ vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
 
-  [[images/installation/build-task.png]]
+  ![](images/installation/build-task.png)
 
 6. To test changes to the Haxe Language Server, you can reload it with the [Haxe: Restart language server](/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
 7. To test chanages to the extension itself, restart VSCode, reload the window or run a debug instance with <kbd>F5</kbd> ([standard vscode workflow](https://code.visualstudio.com/docs/extensions/debugging-extensions)).

@@ -29,6 +29,6 @@ Runs [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics) on all files in the workspac
 
 En/disables Haxe [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens) in your [Configuration](/vshaxe/vshaxe/wiki/Configuration) by flipping the `"haxe.enableCodeLens"` setting.
 
-[[images/commands/toggle-code-lens-.gif]]
+![](images/commands/toggle-code-lens-.gif)
 
 >**Known issues:** Code Lens only refresh after editing the current file ([#95](https://github.com/vshaxe/vshaxe/issues/95)).

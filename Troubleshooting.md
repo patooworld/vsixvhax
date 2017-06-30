@@ -4,7 +4,7 @@ If completion features still aren't working after configuring everything (see [D
 
 Output from the Haxe Language Server is logged to the Haxe Output Channel. Here's how to reach it and what it might look like when trying to access a class from a dependency vshaxe doesn't know about (missing `-lib json2object` in the display `.hxml` file):
 
-[[images/troubleshooting/output-channel-.gif]]
+![](images/troubleshooting/output-channel-.gif)
 
 You can get more verbose output by adding the `-v` flag to the compiler arguments in your `settings.json`:
 
@@ -16,7 +16,7 @@ You can get more verbose output by adding the `-v` flag to the compiler argument
 
 With this, the output channel will show the complete display requests sent to Haxe (as well as the full responses).
 
-[[images/troubleshooting/verbose.png]]
+![](images/troubleshooting/verbose.png)
 
 >**Note:** if your Haxe project is nested within a subdirectory of your VSCode workspace, you may need to adjust the working directory (`--cwd` argument) of your Display Configuration. This is explained [here](/vshaxe/vshaxe/wiki/Configuration#changing-the-working-directory).
 

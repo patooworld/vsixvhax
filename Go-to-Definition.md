@@ -2,11 +2,11 @@ There are three ways to use "Go to Definition" on an identifier:
 
 - Click while holding <kbd>Ctrl</kbd>:
 
-  [[images/go-to-definition/ctrl-click.gif]]
+  ![](images/go-to-definition/ctrl-click.gif)
 
 - Use the context menu:
   
-  [[images/go-to-definition/context-menu.png]]
+  ![](images/go-to-definition/context-menu.png)
 
 - Press <kbd>F12</kbd>
 

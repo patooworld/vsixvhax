@@ -4,7 +4,7 @@ There are a lot of plans and ideas for Code Generation, but as it stands, there 
 
 "Generate anonymous function" is made available whenever vshaxe comes across a function in a parameter in [Signature Help](/vshaxe/vshaxe/wiki/Signature-Help).
 
-[[images/code-generation/anon-function.gif]]
+![](images/code-generation/anon-function.gif)
 
 When generating parameter names, vshaxe has to "take a best guess" based on the parameter types, as function types in Haxe do not include parameter names. Argument name guessing follows these rules:
 
@@ -18,7 +18,7 @@ When generating parameter names, vshaxe has to "take a best guess" based on the 
 
 "Generate capture variables" is available for enum constructors after a `case` keyword, and can be used to fill in capture variables for all arguments:
 
-[[images/code-generation/capture-variables.gif]]
+![](images/code-generation/capture-variables.gif)
 
 ### Configuration
 
@@ -52,7 +52,7 @@ The default behavior is to not include any type hints for arguments or return ty
 
 Which will lead to this behavior:
 
-[[images/code-generation/anon-function-with-types.gif]]
+![](images/code-generation/anon-function-with-types.gif)
 
 Besides `"never"` and `"always"`, `"returnTypeHint"` has a third option: `"non-void"`. With this, the return type hint will only be added if the return type is not `Void`.
 

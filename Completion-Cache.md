@@ -6,11 +6,11 @@ Note that the cache not only impacts the speed of [Completion](/vshaxe/vshaxe/wi
 
 If everything goes well, you will see this in your Haxe Output Channel:
 
-[[images/completion-cache/good.png]]
+![](images/completion-cache/good.png)
 
 However, if your project has compiler errors at the time the Haxe Language Server is started, or the provided `.hxml` is just not suitable for building, you will see something like this instead:
 
-[[images/completion-cache/bad.png]]
+![](images/completion-cache/bad.png)
 
 In this case, you can try fixing the error and invoke the [Restart Language Server](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
 
@@ -20,11 +20,11 @@ To illustrate the kind of difference the Completion Cache can make, here's a bef
 
 **Before:**
 
-[[images/completion-cache/before.png]]
+![](images/completion-cache/before.png)
 
 **After:**
 
-[[images/completion-cache/after.png]]
+![](images/completion-cache/after.png)
 
 Needless to say, a completion request taking over well over half a second severely impacts any kind of flow you might otherwise achieve while programming. With under 100 ms however, it feels quite responsive.
 
@@ -36,7 +36,7 @@ There are ways to further decrease completion times using the [haxe.macro.Compil
 --macro server.setModuleCheckPolicy(['flixel', 'openfl', 'lime', 'flash'], [NoCheckShadowing, NoCheckDependencies], true)
 ```
 
-[[images/completion-cache/module-check-policy.png]]
+![](images/completion-cache/module-check-policy.png)
 
 Apart from that, try adding `--times` and `-D macro-times` to your display `.hxml`. Maybe a lot of time is spent on a particular macro that doesn't need to do _quite_ as much work in display mode as in a regular compilation (check for `#if display`).
 
