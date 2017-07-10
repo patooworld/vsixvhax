@@ -11,13 +11,14 @@ extern class VshaxeAPI {
      *
      * @param name A unique ID to identify the extension. Shown to the user for conflict resolution.
      * @param provider A display argument provider.
+     * @return A disposable which unregisters the provider.
      */
     public function registerDisplayArgumentProvider(name:String, provider:DisplayArgumentProvider):Disposable;
 }
 
 typedef DisplayArgumentProvider = {
     /**
-     * Called when vshaxe selects the provider for providing completion. Might never be called if another provider is active.
+     * Called when vshaxe selects the provider for providing completion.
      *
      * @param provideArguments A callback that should be cached by the provider, and called whenever display arguments change.
      *        The callback's `String` argument is assumed to be formatted like a HXML file and will be parsed by vshaxe.
