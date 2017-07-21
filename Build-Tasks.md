@@ -1,21 +1,29 @@
-Here is an example `tasks.json` file for your `.vscode/` workspace:
+Vshaxe auto-discovers `.hxml` files in the root directory of your project and generates build tasks for them. You can access them with `Tasks` -> `Run Build Task` or by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>:
+
+![](images/build-tasks/auto-detected-tasks.png)
+
+Output of tasks is printed to the Terminal:
+
+![](images/build-tasks/terminal.png)
+
+Compiler errors that occur during task execution are picked up by the "Problems" panel. You can click on them to go to the error's position:
+
+![](images/build-tasks/error.png)
+
+You can also manually define tasks for `.hxml` files in a `.vscode/tasks.json` file, for instance for `.hxml` files that are in subdirectories:
 
 ```json
 {
     "version": "2.0.0",
-    "command": "haxe",
-    "args": ["build.hxml"],
-    "problemMatcher": "$haxe"
+    "tasks": [
+        {
+            "command": "haxe",
+            "args": ["build/build-js.hxml"],
+            "problemMatcher": "$haxe"
+        }
+    ]
 }
 ```
-
-Pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> will run `haxe build.hxml` and trace any output to the Terminal that is opened:
-
-![](images/build-tasks/terminal.png)
-
-The `"problemMatcher"` is for detecting compiler errors in the terminal output. These will be shown in the "Problems" view and are clickable:
-
-![](images/build-tasks/error.png)
 
 >**Known issues:** Haxe sometimes outputs relative and sometimes absolute paths, but the problem matcher can only be configured to accept one at a time ([#23](https://github.com/vshaxe/vshaxe/issues/23)).
 
