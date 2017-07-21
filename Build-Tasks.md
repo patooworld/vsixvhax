@@ -10,7 +10,7 @@ Output of tasks is printed to the Terminal:
 
 Compiler errors that occur during task execution are picked up by the "Problems" panel. You can click on them to go to the error's position:
 
-![](images/build-tasks/error.png)
+![](images/build-tasks/problems-panel.png)
 
 You can also manually define tasks for `.hxml` files in a `.vscode/tasks.json` file, for instance for `.hxml` files that are in subdirectories:
 
