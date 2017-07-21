@@ -2,6 +2,8 @@ Vshaxe auto-discovers `.hxml` files in the root directory of your project and ge
 
 ![](images/build-tasks/auto-detected-tasks.png)
 
+>**Note:** auto-generated tasks use the Haxe executable defined by the [`"haxe.executable"` setting](/vshaxe/vshaxe/wiki/Configuration).
+
 Output of tasks is printed to the Terminal:
 
 ![](images/build-tasks/terminal.png)
