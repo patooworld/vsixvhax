@@ -8,7 +8,7 @@ Vshaxe requires a `.hxml` file to invoke the Haxe code completion engine. The me
 }
 ```
 
-Here are some notes on how obtain `.hxml` files with popular Haxe frameworks:
+Here are some notes on how to use Vshaxe with popular Haxe frameworks:
 
 ### Lime / OpenFL
 
