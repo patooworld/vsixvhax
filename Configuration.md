@@ -9,18 +9,7 @@ The vshaxe extension supports the following settings. They can be configured in 
         ["build.hxml"], // hxml file is an normal haxe argument too
     ],
     "haxe.displayServer": { // configuration for starting haxe completion server itself
-        "haxePath": "haxe", // path to the executable (default: `haxe`)
         "arguments": ["-v"], // arguments before --wait (-v is useful for debugging)
-        "env": { // environment variables for the completion server
-            "HAXE_STD_PATH": "/some/path",
-            "SOME_VAR": "some_value",
-        },
-
-        // platform-specific overrides of the keys above
-        // they will be merged into the default configuration
-        "windows": {},
-        "linux": {},
-        "osx": {}
     }
 }
 ```
@@ -60,6 +49,31 @@ The problem matcher of your [Build Task(s)](/vshaxe/vshaxe/wiki/Build-Tasks) wil
 "problemMatcher": {
     "fileLocation": ["relative", "${workspaceRoot}/<directory>"],
     // [...]
+}
+```
+
+### Haxe Executable
+
+You can change the executable used for [build tasks](/vshaxe/vshaxe/wiki/Build-Tasks) and the display server with the `"haxe.executable"` setting:
+
+```js
+"haxe.executable": "C:\\HaxeToolkit\\haxe\\haxe.exe"
+```
+
+You can also have more complex settings that include environment variables or OS-specific properties:
+
+```js
+"haxe.executable": {
+    "path": "haxe", // path to the executable (default: `haxe`)
+    "env": { // environment variables for Haxe
+        "HAXE_STD_PATH": "/some/path",
+        "SOME_VAR": "some_value",
+    },
+    // platform-specific overrides of the keys above
+    // they will be merged into the default configuration
+    "windows": {},
+    "linux": {},
+    "osx": {}
 }
 ```
 
