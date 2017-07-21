@@ -13,8 +13,6 @@ to generate `.vscode` workspace folder with the build task and example vshaxe co
 Restarts the language server and the Haxe completion server. Use it if anything goes wrong or to reload haxe-languageserver's code
 after recompiling it.
 
->**Known issues:** a new Haxe output channel is added on each restart ([#87](https://github.com/vshaxe/vshaxe/issues/87)).
-
 ### Haxe: Select Display Configuration...
 
 Choose the currently active display configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
