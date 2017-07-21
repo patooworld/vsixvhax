@@ -8,8 +8,6 @@ Vshaxe requires a `.hxml` file to invoke the Haxe code completion engine. The me
 }
 ```
 
-If you don't have a `.vscode` workspace set up yet, you can use the [Initialize VS Code Project...](/vshaxe/vshaxe/wiki/Commands#haxe-initialize-vs-code-project) command to generate a `settings.json` with all `.hxml` files in the current directory (or subdirectories).
-
 Here are some notes on how obtain `.hxml` files with popular Haxe frameworks:
 
 ### Lime / OpenFL

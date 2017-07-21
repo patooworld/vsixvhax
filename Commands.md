@@ -1,7 +1,7 @@
 The vshaxe extension adds the following commands. You can invoke them by pressing <kbd>F1</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and
 typing part of the command name. All commands are prefixed with `Haxe`:
 
-### Haxe: Initialize VS Code Project...
+### Haxe: Initialize VS Code Project
 
 Scaffolds a very basic Haxe project in an empty workspace.
 
@@ -12,7 +12,7 @@ Scaffolds a very basic Haxe project in an empty workspace.
 Restarts the language server and the Haxe completion server. Use it if anything goes wrong or to reload haxe-languageserver's code
 after recompiling it.
 
-### Haxe: Select Display Configuration...
+### Haxe: Select Display Configuration
 
 Choose the currently active display configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
 
