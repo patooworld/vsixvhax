@@ -14,7 +14,9 @@ after recompiling it.
 
 ### Haxe: Select Completion Provider
 
-Selects the "provider" to use for completion. Vshaxe has an Extension API that allows extension to supply display arguments. Currently this is only used by the [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) extension. The built-in "Haxe" provider is available whenever there are `.hxml` files in the project's root directory or if [`"haxe.displayConfigurations"`](/vshaxe/vshaxe/wiki/Configuration) has been set.
+Selects the "provider" to use for completion. Vshaxe has an extension API that allows another extension to provide the arguments for completion. Currently this is only used by the [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) extension.
+
+The built-in "Haxe" provider is available whenever there are `.hxml` files in the project's root directory or if [`"haxe.displayConfigurations"`](/vshaxe/vshaxe/wiki/Configuration) has been set.
 
 ![](images/commands/select-completion-provider.png)
 
@@ -22,9 +24,15 @@ Instead of using the command to open the dropdown, you can also click the comple
 
 ![](images/commands/select-completion-provider-status-bar.png)
 
-### Haxe: Select Display Configuration
+### Haxe: Select Configuration
 
 Choose the currently active display configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
+
+![](images/commands/select-config.png)
+
+Instead of using the command to open the dropdown, you can also click the completion provider status bar item in the lower left:
+
+![](images/commands/select-config-status-bar.png)
 
 ### Haxe: Run Global Diagnostics Check
 
