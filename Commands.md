@@ -26,7 +26,7 @@ Instead of using the command to open the dropdown, you can also click the Comple
 
 ### Haxe: Select Configuration
 
-Choose the currently active display configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
+Choose the currently active configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
 
 ![](images/commands/select-config.png)
 

@@ -40,7 +40,7 @@ display configuration:
 
 ![](images/configuration/configs.gif)
 
-The same menu can also be shown by using `Haxe: Select Display Configuration` command from the command palette or a keybinding.
+The same menu can also be shown by using `Haxe: Select Configuration` command from the command palette or a keybinding.
 
 #### Changing the Working Directory
 
