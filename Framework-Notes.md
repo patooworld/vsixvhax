@@ -66,4 +66,4 @@ flambe haxe-flags > completion.hxml
 
 _____________________
 
-Feel free to file an issue with details for other frameworks. Smoother integration with third-party libraries is planned ([#18](https://github.com/vshaxe/vshaxe/issues/18)).
+Feel free to file an issue with details for other frameworks.
