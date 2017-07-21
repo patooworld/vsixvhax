@@ -12,6 +12,16 @@ Scaffolds a very basic Haxe project in an empty workspace.
 Restarts the language server and the Haxe completion server. Use it if anything goes wrong or to reload haxe-languageserver's code
 after recompiling it.
 
+### Haxe: Select Completion Provider
+
+Selects the "provider" to use for completion. Vshaxe has an Extension API that allows extension to supply display arguments. Currently this is only used by the [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) extension. The built-in "Haxe" provider is available whenever there are `.hxml` files in the project's root directory or if [`"haxe.displayConfigurations"`](/vshaxe/vshaxe/wiki/Configuration) has been set.
+
+![](images/commands/select-completion-provider.png)
+
+Instead of using the command to open the dropdown, you can also click the completion provider status bar item in the lower left:
+
+![](images/commands/select-completion-provider-status-bar.png)
+
 ### Haxe: Select Display Configuration
 
 Choose the currently active display configuration (see [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) section for more info).
