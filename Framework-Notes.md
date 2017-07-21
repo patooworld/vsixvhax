@@ -16,7 +16,7 @@ For Lime and OpenFL projects, there is a dedicated [Lime extension](https://mark
 
 ![](images/framework-notes/lime-status-bar.png)
 
-It also generates [tasks]((/vshaxe/vshaxe/wiki/Build-Tasks)) based on the current configuration:
+It also generates [tasks](/vshaxe/vshaxe/wiki/Build-Tasks) based on the current configuration:
 
 ![](images/framework-notes/lime-tasks.png)
 
