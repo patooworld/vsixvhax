@@ -3,8 +3,7 @@ typing part of the command name. All commands are prefixed with `Haxe`:
 
 ### Haxe: Initialize VS Code Project...
 
-Scaffolds a very basic Haxe project in an empty workspace. Can also be used on an existing project with `.hxml` files
-to generate `.vscode` workspace folder with the build task and example vshaxe configuration.
+Scaffolds a very basic Haxe project in an empty workspace.
 
 ![](images/commands/initialize-vscode-project.gif)
 
