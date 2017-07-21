@@ -20,7 +20,7 @@ The built-in "Haxe" provider is available whenever there are `.hxml` files in th
 
 ![](images/commands/select-completion-provider.png)
 
-Instead of using the command to open the dropdown, you can also click the completion provider status bar item in the lower left:
+Instead of using the command to open the dropdown, you can also click the Completion Provider item in the lower left of the status bar:
 
 ![](images/commands/select-completion-provider-status-bar.png)
 
@@ -30,7 +30,7 @@ Choose the currently active display configuration (see [Configuration](https://g
 
 ![](images/commands/select-config.png)
 
-Instead of using the command to open the dropdown, you can also click the completion provider status bar item in the lower left:
+Instead of using the command to open the dropdown, you can also click the Haxe Configuration item in the lower left of the status bar:
 
 ![](images/commands/select-config-status-bar.png)
 
