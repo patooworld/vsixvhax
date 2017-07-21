@@ -12,20 +12,13 @@ Here are some notes on how obtain `.hxml` files with popular Haxe frameworks:
 
 ### Lime / OpenFL
 
-A `.hxml` file for completion by can obtained by running `haxelib run lime display <platform> > completion.hxml`. However, these files are generally only suitable for completion, but not building the project, which is necessary to get fast completion via the [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache).
+For Lime and OpenFL projects, there is a dedicated [Lime extension](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) that leverages Vshaxe's extension API to provide completion, meaning you don't have to worry about `.hxml` files. It adds some items to the status bar that allow switching between targets, debug / release etc:
 
-For this reason, it's recommended to use the `.hxml` files that Lime already generates anyway on each build. A `settings.json` for Neko and Flash might look like this:
+![](images/framework-notes/lime-status-bar.png)
 
-```json
-{
-    "haxe.displayConfigurations": [
-        ["Export/windows/neko/debug/haxe/debug.hxml"],
-        ["Export/windows/neko/release/haxe/release.hxml"],
-        ["Export/flash/debug/haxe/debug.hxml"],
-        ["Export/flash/release/haxe/release.hxml"]
-    ]
-}
-```
+It also generates [tasks]((/vshaxe/vshaxe/wiki/Build-Tasks)) based on the current configuration:
+
+![](images/framework-notes/lime-tasks.png)
 
 ### HaxeFlixel
 
