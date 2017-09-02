@@ -50,11 +50,13 @@ Problem matcher (`tasks.json` file) also needs to take location of `.hxml` file 
 
 ### Snow
 
-For Snow, a `.hxml` file can be obtained by running the following command:
+For Snow, a `.hxml` file can be obtained by running the following command (where `<target>` is the name of a target like `web`):
 
 ```
-haxelib run flow info --hxml > completion.hxml
+haxelib run flow info <target> --hxml > completion.hxml
 ```
+
+Also check out the [official Luxe documentation on setting up VSCode](https://luxeengine.com/setup-an-ide/#vscode).
 
 ### Flambe
 
