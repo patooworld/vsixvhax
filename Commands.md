@@ -36,9 +36,7 @@ Instead of using the command to open the dropdown, you can also click the Haxe C
 
 ### Haxe: Run Global Diagnostics Check
 
-Runs [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics) on all files in the workspace.
-
->**Known issues:** It's not obvious when a global diagnostics run has finished, since the problems view is not opened afterwards ([#38](https://github.com/vshaxe/vshaxe/issues/38)).
+Runs [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics) on all files in the workspace and displays them in the Problems view.
 
 ### Haxe: Toggle Code Lens
 
