@@ -1,3 +1,15 @@
+### Completion is slow
+
+If completion is works, but is slower than expected, make sure the [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) is working.
+
+If you're completion is slow only _sporadically_, it might be caused by the Haxe server performing garbage collection every so often. This should only be an issue with with Haxe versions prior to Haxe 4.0.0-preivew.3. You can make sure by enabling verbose completion server output (see further down this page for details) and checking if there's any output like this:
+
+```
+Compacted memory 13.230s 1541.2MB
+```
+
+### Completion doesn't work at all
+
 If completion features still aren't working after configuring everything (see [Display Configurations](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) and [Framework Notes](/vshaxe/vshaxe/wiki/Framework-Notes)), there are some steps you can take to find the culprit.
 
 >**Note:** while completion for small projects without dependencies might work fine out of the box without any additional setup, for anything more complex you will definitely need to set up a Display Configuration.
