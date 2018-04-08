@@ -3,7 +3,7 @@
 
 ### Releases
 
-The easiest way to install the latest vshaxe release is by searching the VSCode marketplace for "vshaxe":
+The easiest way to install the latest vshaxe release is by searching the VSCode marketplace for "Haxe":
 
 ![](images/installation/marketplace.gif)
 
