@@ -2,7 +2,7 @@
 
 If completion works, but is slower than expected, make sure the [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) is working.
 
-If completion is slow only _sporadically_, it might be caused by the Haxe server performing garbage collection every so often. This should only be an issue with Haxe versions prior to 4.0.0-preivew.3. You can make sure by enabling verbose completion server output (see further down this page for details) and checking if there's any output like this:
+If completion is slow only _sporadically_, it might be caused by the Haxe server performing garbage collection every so often. This should only be an issue with Haxe version 4.0.0-preivew.3 or prior. You can make sure by enabling verbose completion server output (see further down this page for details) and checking if there's any output like this:
 
 ```
 Compacted memory 13.230s 1541.2MB
