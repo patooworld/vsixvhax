@@ -16,9 +16,15 @@ However, instead of installing vshaxe directly, you might want to consider insta
 If you want to contribute to vshaxe, or just prefer working directly from source, you can follow these steps to install vshaxe from GitHub:
 
 1. Navigate to the extensions folder (`C:\Users\<username>\.vscode\extensions` on Windows, `~/.vscode/extensions` otherwise)
-2. **Recursively** clone this repo: `git clone --recursive https://github.com/vshaxe/vshaxe`.
+2. Clone this repo and install the build tool:
+
+    ```
+    git clone https://github.com/vshaxe/vshaxe --recursive 
+    git clone https://github.com/vshaxe/vshaxe-build
+    haxelib dev vshaxe-build vshaxe-build
+    ```
+
 3. Change current directory to the cloned one: `cd vshaxe`.
-4. Install the build tool: `haxelib git vshaxe-build https://github.com/vshaxe/vshaxe-build`
 5. To build both client and server in debug mode (as well as install all dependencies):
 
     ```
@@ -27,7 +33,7 @@ If you want to contribute to vshaxe, or just prefer working directly from source
   
     After initially building _and_ installing the dependencies (with `--mode both`), the usual workflow is to only _rebuild_ vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
 
-  ![](images/installation/build-task.png)
+    ![](images/installation/build-task.png)
 
 6. To test changes to the Haxe Language Server, you can reload it with the [Haxe: Restart language server](/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
 7. To test chanages to the extension itself, restart VSCode, reload the window or run a debug instance with <kbd>F5</kbd> ([standard vscode workflow](https://code.visualstudio.com/docs/extensions/debugging-extensions)).
