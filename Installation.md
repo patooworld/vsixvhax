@@ -16,7 +16,8 @@ However, instead of installing vshaxe directly, you might want to consider insta
 If you want to contribute to vshaxe, or just prefer working directly from source, you can follow these steps to install vshaxe from GitHub:
 
 1. Navigate to the extensions folder (`C:\Users\<username>\.vscode\extensions` on Windows, `~/.vscode/extensions` otherwise)
-2. Clone this repo and install the build tool:
+2. Remove the existing marketplace installation of vshaxe if present, since it would override the version checked out from source (a folder named `nadako.vshaxe-<version>`).
+3. Clone this repo and install the build tool:
 
     ```
     git clone https://github.com/vshaxe/vshaxe --recursive 
@@ -24,7 +25,7 @@ If you want to contribute to vshaxe, or just prefer working directly from source
     haxelib dev vshaxe-build vshaxe-build
     ```
 
-3. Change current directory to the cloned one: `cd vshaxe`.
+4. Change current directory to the cloned one: `cd vshaxe`.
 5. To build both client and server in debug mode (as well as install all dependencies):
 
     ```
