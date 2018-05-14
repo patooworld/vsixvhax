@@ -1,4 +1,4 @@
-There are a lot of plans and ideas for Code Generation, but as it stands, there are only a couple [Code Action](/vshaxe/vshaxe/wiki/Code-Actions) available for Code Generation:
+There are a lot of plans and ideas for Code Generation, but as it stands, there are only a couple [Code Actions](/vshaxe/vshaxe/wiki/Code-Actions) available for Code Generation:
 
 ### Generate anonymous function
 
