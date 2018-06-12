@@ -26,7 +26,7 @@ To illustrate the kind of difference the Completion Cache can make, here's a bef
 
 ![](images/completion-cache/after.png)
 
-Needless to say, a completion request taking over well over half a second severely impacts any kind of flow you might otherwise achieve while programming. With under 100 ms however, it feels quite responsive.
+Needless to say, a completion request taking well over half a second severely impacts any kind of flow you might otherwise achieve while programming. With under 100 ms however, it feels quite responsive.
 
 ### Can I make completion even faster?
 
