@@ -6,7 +6,7 @@ Here's a quick overview of the changes. For the full changelog, click [here](htt
 
 ### Auto-Imports
 
-To get the elephant out of the room right away - auto-imports, probably the single most requested feature ([and the second ever issue on the repository](https://github.com/vshaxe/vshaxe/issues/2)), are now fully supported:
+To address the elephant in the room right away - auto-imports, probably the single most requested feature ([and the second ever issue on the repository](https://github.com/vshaxe/vshaxe/issues/2)), are now fully supported:
 
 ![](images/release-2.0.0/auto-import.gif)
 
@@ -28,7 +28,7 @@ If you don't like auto-imports, that's ok too - you can just disable them, in wh
 
 ### Presentation
 
-We made big changes to how things are presented in completion item details and hover hints, and added a lot of useful information such as "where is this field from?". This is especially useful in cases where that might not be immediately obvious, like with inheritance or [static extensions](https://haxe.org/manual/lf-static-extension.html):
+We made some changes to how things are presented in completion item details and hover hints, and added a lot of useful information such as "where is this field from?". This is especially useful in cases where that might not be immediately obvious, like with inheritance or [static extensions](https://haxe.org/manual/lf-static-extension.html):
 
 ![](images/release-2.0.0/new-details.png)
 
