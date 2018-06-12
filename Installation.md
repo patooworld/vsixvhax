@@ -1,5 +1,4 @@
->**IMPORTANT**: vshaxe requires Haxe version 3.4.0 or later (e.g. development) to work. This is due to usage of [`-D display-stdin`](https://github.com/HaxeFoundation/haxe/pull/5120),
-[`--wait stdio`](https://github.com/HaxeFoundation/haxe/pull/5188) and tons of other fixes and additions related to IDE support.
+>**IMPORTANT**: vshaxe requires Haxe 3.4.0 or newer and works best with [Haxe 4.0.0-preview.4](https://haxe.org/download/version/4.0.0-preview.4/).
 
 ### Releases
 
