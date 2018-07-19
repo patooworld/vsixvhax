@@ -56,7 +56,7 @@ Similarly, you can generate an anonymous function whenever a function type is ex
 
 ![](images/release-2.0.0/expected-type-function.gif)
 
-You can expect more items here in the future, such as generating a field-level or local functions.
+You can expect more items here in the future, such as generating methods or local functions.
 
 There are many ways to customize anonymous function generation, such as generating regular functions instead of Haxe 4 style arrow functions, see the corresponding `"haxe.codeGeneration"` settings:
 
