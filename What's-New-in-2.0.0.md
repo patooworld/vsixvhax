@@ -48,6 +48,8 @@ Working with structures in Haxe used to involve a lot of manual lookups - "what'
 
 Speaking of structures... why not simply let the entire structure be generated for you? You're offered two choices: generate an object literal with all fields, or just the ones that are required / non-optional:
 
+(use <kbd>Ctrl</kbd>+<kbd>Space</kbd> to trigger the completion popup)
+
 ![](images/release-2.0.0/expected-type-object-literal.gif)
 
 Similarly, you can generate an anonymous function whenever a function type is expected:
@@ -69,8 +71,6 @@ There are many ways to customize anonymous function generation, such as generati
 ```
 
 Then again, who doesn't like arrow functions?
-
-(note that completion must be invoked manually in these cases with <kbd>Ctrl</kbd>+<kbd>Space</kbd>)
 
 ### Postfix Completion
 
