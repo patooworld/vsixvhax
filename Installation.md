@@ -10,6 +10,11 @@ Alternatively, press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install vshaxe`
 
 However, instead of installing vshaxe directly, you might want to consider installing the [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack) instead. Apart from vshaxe itself, it also contains several debuggers (HXCPP, HashLink, Flash) and [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox) (for doc comment generation) extensions.
 
+For some frameworks, there are also extension available that integrate with vshaxe:
+
+- [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension)
+- [Kha](https://marketplace.visualstudio.com/items?itemName=kodetech.kha)
+
 ### From Source
 
 If you want to contribute to vshaxe, or just prefer working directly from source, you can follow these steps to install vshaxe from GitHub:
