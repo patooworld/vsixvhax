@@ -13,7 +13,7 @@ However, instead of installing vshaxe directly, you might want to consider insta
 For some frameworks, there are also extension available that integrate with vshaxe:
 
 - [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension)
-- [Kha](https://marketplace.visualstudio.com/items?itemName=kodetech.kha)
+- [Kha](https://marketplace.visualstudio.com/items?itemName=kodetech.kha-extension-pack)
 
 ### From Source
 
