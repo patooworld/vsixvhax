@@ -24,16 +24,6 @@ Another example are unused local variables and expressions whose values are not 
 
 ![](images/diagnostics/no-effect_.png)
 
-If you want to configure the appearance of unused code, e.g. to fade it out more strongly, you can use the `colorCustomizations` setting for this:
-
-```json
-"workbench.colorCustomizations": {
-    "editorUnnecessaryCode.opacity": "#00000030"
-}
-```
-
-![](images/diagnostics/custom-fade.png)
-
 Many Diagnostics have one or multiple Code Actions associated with them. A comprehensive list of the Code Actions that are available can be found [here](/vshaxe/vshaxe/wiki/Code-Actions).
 
 ### Configuration
@@ -41,6 +31,16 @@ Many Diagnostics have one or multiple Code Actions associated with them. A compr
 There are two settings that influence the behavior of Diagnostics:
 
 - `"haxe.enableDiagnostics"` - Controls whether Diagnostics should be shown at all. Defaults to `true`.
+- `"workbench.colorCustomizations"` - Lets you configure the appearance of unused code, e.g. to fade it out more strongly:
+
+  ```json
+  "workbench.colorCustomizations": {
+      "editorUnnecessaryCode.opacity": "#00000030"
+  }
+  ```
+
+  ![](images/diagnostics/custom-fade.png)
+
 - `"haxe.diagnosticsPathFilter"` - A regex that is matched against file paths. Diagnostics for files not matching the filter are hidden.
 
   The default filter is `"${workspaceRoot}"`, which means Diagnostics are only shown for files in the current workspace (`${workspaceRoot}` is replaced with the current workspace's path). This means that Diagnostics won't be shown for files in your Haxelib directory. If you want to see Diagnostics for Haxelibs as well (for instance if you are the author of a Haxelib), you can effectively disable the filter by making it match everything (`".*?"`).
