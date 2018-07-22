@@ -16,7 +16,7 @@ The vshaxe extension supports the following settings. They can be configured in 
 
 Beware that display configurations specified in `"haxe.displayConfigurations"` should only contain arguments suitable for
 completion, such as `-cp`, `-lib`, `-D` and target output (`-js`, `-cpp`, etc.). This is particularly important when
-specifying an `.hxml` file for completion: make sure it doesn't contain `-cmd`, `--next`, `--each` and other arguments
+specifying an `.hxml` file for completion: make sure it doesn't contain `--next`, `--each` and other arguments
 not suitable for completion.
 
 #### Multiple Display Configurations
