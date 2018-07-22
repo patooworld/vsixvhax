@@ -40,6 +40,26 @@ After typing the `override` keyword, you are offered a list of functions you can
 
 ### Postfix Completion
 
+Postfix completion is triggered when "dot-completing" on identifiers with a certain type.
+
+#### Switch-Case
+
+For enums or enum abstracts, Postfix Completion allows generating a `switch` expression:
+
+![](images/code-generation/postfix-switch.gif)
+
+#### For-Each Loop
+
+For arrays, there's two options: either generate a regular for-each loop using an iterator...
+
+![](images/code-generation/postfix-for.gif)
+
+#### Indexed For Loop
+
+...or an indexed for loop, in case you need the index for something.
+
+![](images/code-generation/postfix-fori.gif)
+
 ### Pattern Completion
 
 ### Configuration
