@@ -11,3 +11,7 @@ There are three ways to use "Go to Definition" on an identifier:
 - Press <kbd>F12</kbd>
 
 You can use <kbd>Alt</kbd>+<kbd>◄</kbd> to navigate back to the original file (and <kbd>Alt</kbd>+<kbd>►</kbd> to navigate back to the definition again if you already forgot what you were looking for).
+
+> **Tip:** "Go to Definition" can also be used on the `override` keyword of a function to navigate to its parent.
+>
+> ![](images/go-to-definition/override.gif)
