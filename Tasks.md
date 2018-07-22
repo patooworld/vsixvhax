@@ -1,6 +1,6 @@
-Vshaxe auto-discovers `.hxml` files in the root directory of your project and generates [Tasks](https://code.visualstudio.com/docs/editor/tasks) for them. You can access them with `Tasks` -> `Run Task...`:
+The Haxe extension auto-discovers `.hxml` files in the root directory of your project and generates [Tasks](https://code.visualstudio.com/docs/editor/tasks) for them. You can access them with `Tasks` -> `Run Task...`:
 
-![](images/build-tasks/auto-detected-tasks.png)
+![](images/tasks/auto-detected-tasks.png)
 
 You can configure one of the tasks to be the "default build task" via `Tasks` -> `Configure Default Build Task...`. This creates a `tasks.json` and allows running that task directly with a shortcut (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> by default).
 
@@ -10,12 +10,11 @@ You can configure one of the tasks to be the "default build task" via `Tasks` ->
 
 Output of tasks is printed to the Terminal:
 
-![](images/build-tasks/terminal.png)
+![](images/tasks/terminal.png)
 
 Compiler errors that occur during a task's execution are picked up by the "Problems" panel. You can click on them to go to the error's position:
 
-![](images/build-tasks/problems-panel.png)
-
+![](images/tasks/problems-panel_.png)
 
 ### Configuration
 
