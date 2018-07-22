@@ -4,7 +4,7 @@ When a Code Action is available for the current selection / cursor position, thi
 
 To show the available actions, either click the light bulb or press <kbd>Ctrl</kbd>+<kbd>.</kbd>. This will open a popup menu:
 
-![](images/code-actions/popup.png)
+![](images/code-actions/popup_.png)
 
 In case you want to change the default shortcut, the `command` for this keybinding is `"editor.action.quickFix"`.
 
