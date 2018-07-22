@@ -28,7 +28,7 @@ Many Diagnostics have one or multiple Code Actions associated with them. A compr
 
 ### Configuration
 
-There are two settings that influence the behavior of Diagnostics:
+There are several settings that influence the behavior of Diagnostics:
 
 - `"haxe.enableDiagnostics"` - Controls whether Diagnostics should be shown at all. Defaults to `true`.
 - `"workbench.colorCustomizations"` - Lets you configure the appearance of unused code, e.g. to fade it out more strongly:
