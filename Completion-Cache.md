@@ -20,13 +20,13 @@ To illustrate the kind of difference the Completion Cache can make, here's a bef
 
 **Before:**
 
-![](images/completion-cache/before.png)
+![](images/completion-cache/before_.png)
 
 **After:**
 
-![](images/completion-cache/after.png)
+![](images/completion-cache/after_.png)
 
-Needless to say, a completion request taking well over half a second severely impacts any kind of flow you might otherwise achieve while programming. With under 100 ms however, it feels quite responsive.
+Needless to say, a completion request taking over a second doesn't feel very snappy. 62 ms on the other hand are quite acceptable. 
 
 ### Can I make completion even faster?
 
