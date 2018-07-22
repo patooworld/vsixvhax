@@ -11,20 +11,3 @@ Output of tasks is printed to the Terminal:
 Compiler errors that occur during task execution are picked up by the "Problems" panel. You can click on them to go to the error's position:
 
 ![](images/build-tasks/problems-panel.png)
-
-You can also manually define tasks for `.hxml` files in a `.vscode/tasks.json` file, for instance for `.hxml` files that are in subdirectories:
-
-```json
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "command": "haxe",
-            "args": ["build/build-js.hxml"],
-            "problemMatcher": "$haxe"
-        }
-    ]
-}
-```
-
-For further information on the `tasks.json` format, please refer to the [official VSCode documentation](https://code.visualstudio.com/docs/editor/tasks). A section that should be particularly interesting for usage with Haxe is the ability to define [multiple tasks](https://code.visualstudio.com/docs/editor/tasks#_command-and-tasks) (think multiple targets).
