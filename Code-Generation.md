@@ -44,23 +44,27 @@ Postfix completion is triggered when "dot-completing" on identifiers with a cert
 
 #### Switch-Case
 
-For enums or enum abstracts, Postfix Completion allows generating a `switch` expression:
+For enums or enum abstracts, Postfix Completion allows generating a complete `switch` expression:
 
 ![](images/code-generation/postfix-switch.gif)
 
 #### For-Each Loop
 
-For arrays, there's two options: either generate a regular for-each loop using an iterator...
+For arrays, there's two options: either generate a regular for-each loop using an iterator, or an indexed for loop, in case you need the index for something.
 
 ![](images/code-generation/postfix-for.gif)
 
 #### Indexed For Loop
 
-...or an indexed for loop, in case you need the index for something.
+The latter option is also available for plain integers:
 
 ![](images/code-generation/postfix-fori.gif)
 
 ### Pattern Completion
+
+When selecting an enum constructor from completion inside a pattern (after a `case` in a `switch`), capture variables for the arguments are auto-inserted:
+
+![](images/code-generation/auto-insert-case.gif)
 
 ### Configuration
 
