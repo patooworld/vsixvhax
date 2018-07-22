@@ -40,8 +40,8 @@ In some cases, simple compiler errors can be fixed via a Code Action:
 
 #### Invalid package
 
-![](images/code-actions/invalid-package.gif)
+![](images/code-actions/invalid-package_.gif)
 
 #### Typo suggestions
 
-![](images/code-actions/typo-suggestion.gif)
+![](images/code-actions/typo-suggestion_.gif)
