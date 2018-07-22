@@ -1,4 +1,6 @@
-Completion is triggered automatically when typing certain trigger characters. It can also be invoked manually with <kbd>Ctrl</kbd>+<kbd>Space</kbd>. What "completion mode" is triggered depends on the context:
+Completion is triggered automatically when typing certain trigger characters. It can also be invoked manually with <kbd>Ctrl</kbd>+<kbd>Space</kbd>. Completion can be also be used to [generate code](https://github.com/vshaxe/vshaxe/wiki/Code-Generation).
+
+What "completion mode" is triggered depends on the context:
 
 ### Field Completion
 
