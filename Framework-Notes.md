@@ -1,18 +1,8 @@
-Vshaxe requires a `.hxml` file to invoke the Haxe code completion engine. The method of aquiring this file depends on the framework you are using (unless it's just a pure Haxe project), but for all of them, you need to add the `.hxml` file(s) to your `settings.json` as shown shown below:
-
-```json
-{
-    "haxe.displayConfigurations": [
-        ["completion.hxml"]
-    ]
-}
-```
-
-Here are some notes on how to use Vshaxe with popular Haxe frameworks:
+While a pure Haxe project using `.hxml` files works with vshaxe's code completion out of the box, many Haxe frameworks come with custom build tools and project formats. This requires additional setup, here's an overview for some of the most popular framework choices:
 
 ### Lime / OpenFL
 
-For Lime and OpenFL projects, there is a dedicated [Lime extension](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) that leverages Vshaxe's extension API to provide completion, meaning you don't have to worry about `.hxml` files. It adds some items to the status bar that allow switching between targets, debug / release etc:
+For Lime and OpenFL projects, there is a dedicated [Lime extension](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) that leverages vshaxe's extension API to provide completion. It adds some items to the status bar that allow switching between targets, debug / release etc:
 
 ![](images/framework-notes/lime-status-bar.png)
 
@@ -22,29 +12,21 @@ It also generates [tasks](/vshaxe/vshaxe/wiki/Build-Tasks) based on the current 
 
 ### HaxeFlixel
 
-Flixel supports initializing a `.vscode` workspace via `flixel-tools`, which has the necessary configuration for both completion and debugging. For detailed instructions, please refer to the [official documentation](http://haxeflixel.com/documentation/visual-studio-code/).
+For Flixel, the Lime extension should be used as well. Additionally, it supports initializing a `.vscode` workspace via `flixel-tools`, which has some additional configuration (e.g. for debugging) for convenience. For detailed instructions, please refer to the [official documentation](http://haxeflixel.com/documentation/visual-studio-code/).
 
 ### Kha
 
-Like Lime, Kha automatically generates `.hxml` files when building. They are located in `build/project-<platform>.hxml`. 
+For Kha, there is an [extension pack](https://marketplace.visualstudio.com/items?itemName=kodetech.kha-extension-pack) available on the VSCode marketplace. Similar to the Lime extension, it integrates seamlessly with vshaxe's code completion API and provides tasks for compilation.
 
-`settings.json` needs to be adjusted to change the working directory to `build` via `--cwd`:
+---
+
+For other frameworks that don't have a dedicated VSCode extension integrating with vshaxe, you need to obtain a `*.hxml` file for code completion to work. You can then add it to the display configurations like this (or simply select it from the status bar if it's located in the project's root directory):
 
 ```json
 {
     "haxe.displayConfigurations": [
-        ["--cwd", "build", "project-<platform1>.hxml"],
-        ["--cwd", "build", "project-<platform2>.hxml"]
+        ["completion.hxml"]
     ]
-}
-```
-
-Problem matcher (`tasks.json` file) also needs to take location of `.hxml` file into account:
-
-```js
-"problemMatcher": {
-    "fileLocation": ["relative", "${workspaceRoot}/build"],
-    // [...]
 }
 ```
 
