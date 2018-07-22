@@ -14,17 +14,27 @@ Since Diagnostics are updated on save, they combo very well with the `"files.aut
 
 You can also run Diagnostics over all files in the current project by using the [Run Global Diagnostics Check](/vshaxe/vshaxe/wiki/Commands#haxe-run-global-diagnostics-check) command.
 
-Diagnostics can not only inform you about invalid, but also unused code. One example for this are unused imports and usings:
+Diagnostics also fade out unused code, such as the `haxe.ds.Either` import and `StringTools` using in this example:
 
-![](images/diagnostics/unused-import.png)
+![](images/diagnostics/unused-import_.png)
 
 >**Note**: an import will be reported as "unused" if it is only used in another [Conditional Compilation](https://haxe.org/manual/lf-condition-compilation.html) branch that is not active with the current [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server). For instance, the imported type might only be used within an `#if cpp` - block, but you're currently targeting JavaScript. In this case, the import(s) should be wrapped in `#if cpp` as well to avoid the warning.
 
 Another example are unused local variables and expressions whose values are not used for anything:
 
-![](images/diagnostics/no-effect.png)
+![](images/diagnostics/no-effect_.png)
 
-Many Diagnostics have one or multiple Code Actions associated with them. A comprehensive list of available Code Actions can be found [here](/vshaxe/vshaxe/wiki/Code-Actions).
+If you want to configure the appearance of unused code, e.g. to fade it out more strongly, you can use the `colorCustomizations` setting for this:
+
+```json
+"workbench.colorCustomizations": {
+    "editorUnnecessaryCode.opacity": "#00000030"
+}
+```
+
+![](images/diagnostics/custom-fade.png)
+
+Many Diagnostics have one or multiple Code Actions associated with them. A comprehensive list of the Code Actions that are available can be found [here](/vshaxe/vshaxe/wiki/Code-Actions).
 
 ### Configuration
 
