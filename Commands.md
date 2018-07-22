@@ -34,6 +34,24 @@ Instead of using the command to open the dropdown, you can also click the Haxe C
 
 ![](images/commands/select-config-status-bar.png)
 
+### Haxe: Debug Selected Configuration
+
+This command lets you debug the currently selected configuration, assuming there is a launch configuration with a matching name defined in `launch.json`. If you want, you can even override the default shortcut for starting a debug session (<kbd>F5</kbd>) in Haxe projects:
+
+```json
+{
+	"key": "f5",
+	"command": "haxe.debugSelectedConfiguration",
+	"when": "vshaxeActivated"
+}
+```
+
+Effectively, this means that `Select Configuration` offers a unified way to switch the target used for:
+
+- code completion
+- the default build task
+- debugging
+
 ### Haxe: Run Global Diagnostics Check
 
 Runs [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics) on all files in the workspace and displays them in the Problems view.
