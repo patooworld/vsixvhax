@@ -22,6 +22,7 @@
 - [Rename Symbol](https://github.com/vshaxe/vshaxe/wiki/Rename-Symbol)
 - [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols)
 - [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
+- [Outline](https://github.com/vshaxe/vshaxe/wiki/Outline)
 - [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
