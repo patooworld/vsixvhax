@@ -4,6 +4,7 @@
 - [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration)
 - [Framework Notes](https://github.com/vshaxe/vshaxe/wiki/Framework-Notes)
 - [Troubleshooting](https://github.com/vshaxe/vshaxe/wiki/Troubleshooting)
+- [Completion Cache](https://github.com/vshaxe/vshaxe/wiki/Completion-Cache)
 - [Recommended Extensions](https://github.com/vshaxe/vshaxe/wiki/Recommended-Extensions)
 
 **Features**
@@ -13,7 +14,6 @@
 - [Dependency Explorer](https://github.com/vshaxe/vshaxe/wiki/Dependency-Explorer)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
-- [Completion Cache](https://github.com/vshaxe/vshaxe/wiki/Completion-Cache)
 - [Signature Help](https://github.com/vshaxe/vshaxe/wiki/Signature-Help)
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
 - [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
