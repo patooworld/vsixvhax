@@ -1,5 +1,16 @@
 The vshaxe extension supports the following settings. They can be configured in user or workspace settings file (`.vscode/settings.json`):
 
+### Feature-specific configuration
+
+For configuration of specific features, please refer to their respective sub-pages:
+
+- [Tasks](/vshaxe/vshaxe/wiki/Tasks#configuration)
+- [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache)
+- [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics#configuration)
+- [Signature Help](/vshaxe/vshaxe/wiki/Signature-Help#configuration)
+- [Code Generation](/vshaxe/vshaxe/wiki/Code-Generation#configuration)
+- [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens)
+
 ### Haxe Executable
 
 You can change the executable used for [Tasks](/vshaxe/vshaxe/wiki/Tasks) and the display server with the `"haxe.executable"` setting:
@@ -24,17 +35,6 @@ You can also have more complex settings that include environment variables or OS
     "osx": {}
 }
 ```
-
-### Feature-specific configuration
-
-For configuration of specific features, please refer to their respective sub-pages:
-
-- [Tasks](/vshaxe/vshaxe/wiki/Tasks#configuration)
-- [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache)
-- [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics#configuration)
-- [Signature Help](/vshaxe/vshaxe/wiki/Signature-Help#configuration)
-- [Code Generation](/vshaxe/vshaxe/wiki/Code-Generation#configuration)
-- [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens)
 
 ### Display Configurations and Display Server
 
