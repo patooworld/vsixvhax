@@ -6,7 +6,7 @@ You can configure one of the tasks to be the "default build task" via `Tasks` ->
 
 > **Tip:** when configuring a default build task, VSCode inserts a list of `problemMatchers` into your `tasks.json`. Unless you want to customize them, this is redundant and can safely be removed.
 
-> **Tip**: in projects with multiple `.hxml` files / configurations, it usually makes sense to pick `haxe: active configuration` as your default build task. This then lets you conveniently select the task to be built [with the `Select Configuration` command or the dropdown menu in the status bar](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-select-configuration).
+> **Tip**: in projects with multiple `.hxml` files / configurations, it usually makes sense to pick `haxe: active configuration` as your default build task. This then lets you conveniently select the configuration to be built [with the `Select Configuration` command or the dropdown menu in the status bar](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-select-configuration).
 
 Output of tasks is printed to the Terminal:
 
@@ -22,3 +22,4 @@ Compiler errors that occur during a task's execution are picked up by the "Probl
 - `"haxe.executable"` - Controls which Haxe executable is used to run generated tasks. See [here](https://github.com/vshaxe/vshaxe/wiki/Configuration#haxe-executable) for more information.
 - `"haxe.displayPort"` - Allows connecting to the Language Server's Haxe process for faster compilation. The setting defaults to `"auto"`, meaning that for each new instance of VSCode you open, a new unique port will be picked.
 - `"haxe.enableCompilationServer"` - Whether generated tasks should connect to the port picked by `"haxe.displayPort"`. Defaults to `true`.
+- `"haxe.taskPresentation"` - This lets you control the `presentation` options that [can also be specified in `tasks.json` for individual tasks](https://code.visualstudio.com/docs/editor/tasks#_custom-tasks) _globally_ (for all generated Haxe tasks).
