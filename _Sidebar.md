@@ -27,6 +27,7 @@
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
+- [Extension API](https://github.com/vshaxe/vshaxe/wiki/Extension-API)
 
 **Releases**
 
