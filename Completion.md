@@ -1,4 +1,4 @@
-Completion is triggered automatically when typing certain trigger characters. It can also be invoked manually with <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
+Completion is triggered automatically when typing certain trigger characters. It can also be invoked manually with <kbd>Ctrl</kbd>+<kbd>Space</kbd>. What "completion mode" is triggered depends on the context:
 
 ### Field Completion
 
@@ -11,6 +11,12 @@ The simplest and most commonly used form of completion is field / "dot" completi
 Toplevel completion gets its name from showing you the available "top level" identifiers, such as imported types or enum values. It usually needs to be triggered manually.
 
 ![](images/completion/toplevel.png)
+
+### Structure Field Completion
+
+When invoking completion with <kbd>Ctrl</kbd>+<kbd>Space</kbd> in an object literal, the fields for the current structure type will be listed:
+
+![](images/completion/structure.png)
 
 ### Type Hint Completion
 
