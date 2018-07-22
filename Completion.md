@@ -10,7 +10,9 @@ Toplevel completion gets its name from showing you the available "top level" ide
 
 ![](images/completion/toplevel.png)
 
-Toplevel completion is also triggered automatically when typing the `:` in a type hint:
+### Type Hint Completion
+
+Completion is triggered automatically when typing the `:` in a type hint, showing the available types:
 
 ![](images/completion/type-hint.png)
 
