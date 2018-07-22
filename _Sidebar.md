@@ -16,6 +16,7 @@
 - [Signature Help](https://github.com/vshaxe/vshaxe/wiki/Signature-Help)
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
 - [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
+- [Go to Type Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Type-Definition)
 - [Peek Definition](https://github.com/vshaxe/vshaxe/wiki/Peek-Definition)
 - [Find All References](https://github.com/vshaxe/vshaxe/wiki/Find-All-References)
 - [Rename Symbol](https://github.com/vshaxe/vshaxe/wiki/Rename-Symbol)
@@ -25,12 +26,6 @@
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
-
-<!--**Debugging**
-
-- [JavaScript](https://github.com/vshaxe/vshaxe/wiki/JavaScript-Debugging)
-- [Flash](https://github.com/vshaxe/vshaxe/wiki/Flash-Debugging)
--->
 
 **Releases**
 

@@ -14,7 +14,7 @@ after recompiling it.
 
 ### Haxe: Select Completion Provider
 
-Selects the "provider" to use for completion. Vshaxe has an extension API that allows another extension to provide the arguments for completion. Currently this is only used by the [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) extension.
+Selects the "provider" to use for completion. vshaxe has an extension API that allows another extension to provide the arguments for completion. Currently this is only used by the [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension) extension.
 
 The built-in "Haxe" provider is available whenever there are `.hxml` files in the project's root directory or if [`"haxe.displayConfigurations"`](/vshaxe/vshaxe/wiki/Configuration) has been set.
 
