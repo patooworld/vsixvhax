@@ -1,7 +1,5 @@
 >**IMPORTANT**: vshaxe requires Haxe 3.4.0 or newer and works best with [Haxe 4.0.0-preview.4](https://haxe.org/download/version/4.0.0-preview.4/).
 
-### Releases
-
 The easiest way to install the latest vshaxe release is by searching the VSCode marketplace for "Haxe":
 
 ![](images/installation/marketplace.gif)
@@ -10,7 +8,7 @@ Alternatively, press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install vshaxe`
 
 However, instead of installing vshaxe directly, you might want to consider installing the [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack) instead. Apart from vshaxe itself, it also contains several debuggers (HXCPP, HashLink, Flash) and [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox) (for doc comment generation) extensions.
 
-For some frameworks, there are also extension available that integrate with vshaxe:
+Some frameworks have dedicated extension that integrate with vshaxe:
 
 - [Lime](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension)
 - [Kha](https://marketplace.visualstudio.com/items?itemName=kodetech.kha-extension-pack)
