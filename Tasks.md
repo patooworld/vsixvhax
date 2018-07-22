@@ -17,6 +17,6 @@ Compiler errors that occur during a task's execution are picked up by the "Probl
 
 ### Configuration
 
-- `"haxe.executable"` - Which Haxe exectuable to use to run the tasks. See [here](https://github.com/vshaxe/vshaxe/wiki/Configuration#haxe-executable) for more information.
+- `"haxe.executable"` - Controls which Haxe executable is used to run generated tasks. See [here](https://github.com/vshaxe/vshaxe/wiki/Configuration#haxe-executable) for more information.
 - `"haxe.displayPort"` - Allows connecting to the Language Server's Haxe process for faster compilation. The setting defaults to `"auto"`, meaning that for each new instance of VSCode you open, a new unique port will be picked.
-- `"haxe.enableCompilationServer"` - Whether auto-generated tasks should connect to the port picked by `"haxe.displayPort"`. Defaults to `true`.
+- `"haxe.enableCompilationServer"` - Whether generated tasks should connect to the port picked by `"haxe.displayPort"`. Defaults to `true`.
