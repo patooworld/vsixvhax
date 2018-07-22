@@ -3,10 +3,10 @@ Through [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbol
 ![](images/outline/command.png)
 
 
-![](images/outline/outline.png)
+![](images/outline/outline_.png)
 
 The outline can be configured to automatically follow your cursor as you move through the document:
 
-![](https://i.imgur.com/W0X2vFN.png)
+![](images/outline/configure.png)
 
 You might also want to consider switching to `Sort By: Position` for symbols to be listed in the same order as they appear in the source file.
