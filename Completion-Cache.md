@@ -12,7 +12,7 @@ If vshaxe was unable to build a cache, you should receive a notification like th
 
 ![](images/completion-cache/failed-output-channel.png)
 
-After fixing the error, you can use the [Restart Language Server](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command to trigger antoher cache build.
+For instance in this case, our `Main.hx` is missing an import for `haxe.Json`. After fixing the error, you can use the [Restart Language Server](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command to trigger antoher cache build.
 
 ### How big is the impact?
 
