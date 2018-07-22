@@ -32,10 +32,11 @@ Expected type completion can also be used in places where a function type is exp
 
 ![](images/code-generation/expected-type-function.gif)
 
-There's a number of ways to customize how generated functions should look like. The following are the default settings:
-
-
 ### Override Completion
+
+After typing the `override` keyword, you are offered a list of functions you can currently override. Selecting one of them will generate the code for it, complete with imports.
+
+![](images/code-generation/override-completion.gif)
 
 ### Postfix Completion
 
