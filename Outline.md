@@ -5,7 +5,7 @@ Through [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbol
 
 ![](images/outline/outline_.png)
 
-The outline can be configured to automatically follow your cursor as you move through the document:
+With the `Follow Cursor` option, The outline can be configured to automatically highlight the symbol your cursor is located in as you move through the document:
 
 ![](images/outline/configure.png)
 
