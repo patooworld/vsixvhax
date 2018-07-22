@@ -42,8 +42,6 @@ There are several code actions that deal with removing unused code:
 
 ![](images/code-actions/unused-var.gif)
 
->**Known issues:** if an unused variable is initialized with a value, this value will currently not be removed ([#35](https://github.com/vshaxe/vshaxe/issues/35)).
-
 #### Compiler error actions
 
 In some cases, simple compiler errors can be fixed via a Code Action:
