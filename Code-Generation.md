@@ -1,59 +1,26 @@
-There are a lot of plans and ideas for Code Generation, but as it stands, there are only a couple [Code Actions](/vshaxe/vshaxe/wiki/Code-Actions) available for Code Generation:
+> **Note:** the Code Generation features on this page all require Haxe 4.0.0-preview.4 or newer. For earlier versions, only some very basic Code Generation based on Code Actions was available.
 
-### Generate anonymous function
+### Auto-Imports
 
-"Generate anonymous function" is made available whenever vshaxe comes across a function in a parameter in [Signature Help](/vshaxe/vshaxe/wiki/Signature-Help).
+Whenever you select an unimported type from completion, an import is added to the top of the file automatically:
 
-![](images/code-generation/anon-function.gif)
+![](images/code-generation/auto-import.gif)
 
-When generating parameter names, vshaxe has to "take a best guess" based on the parameter types, as function types in Haxe do not include parameter names. Argument name guessing follows these rules:
+If you'd prefer the fully qualified path to be inserted instead, you can disable auto-imports like this:
 
-- For `Int`, `Float`, `Bool` and `String`, use single letter-names (`i`, `f`, `b`, `s`)
-- For camel-case names (e.g. `BalancedTree`), use the last segment (`tree`)
-- For any duplicate names, add numbers at the end (`i1`, `i2`...) 
-
->**Known issues:** if the parameter type is a `typedef` to a function type, vshaxe is at the moment unable to resolve the underlying function type and will not offer code generation ([#103](https://github.com/vshaxe/vshaxe/issues/103)).
-
-### Generate capture variables
-
-"Generate capture variables" is available for enum constructors after a `case` keyword, and can be used to fill in capture variables for all arguments:
-
-![](images/code-generation/capture-variables.gif)
-
-### Configuration
-
-How a generated anonymous function looks can be customized. The default settings look like this:
-
-```js
+```json
 "haxe.codeGeneration": {
-    "functions": {
-        "anonymous": {
-            "argumentTypeHints": false,
-            "returnTypeHint": "never",
-            "useArrowSyntax": true
-        }
-    }
+   "imports": {
+       "enableAutoImports": false
+   }
 }
 ```
 
-The default behavior is to not include any type hints for arguments or return types. Perhaps you prefer a configuration that looks like this instead:
+### Expected Type Completion
 
-```js
-"haxe.codeGeneration": {
-    "functions": {
-        "anonymous": {
-            "argumentTypeHints": true,
-            "returnTypeHint": "always",
-            "useArrowSyntax": true
-        }
-    }
-}
-```
+### Override Completion
 
-Which will lead to this behavior:
+### Postfix Completion
 
-![](images/code-generation/anon-function-with-types.gif)
+### Pattern Completion
 
-Besides `"never"` and `"always"`, `"returnTypeHint"` has a third option: `"non-void"`. With this, the return type hint will only be added if the return type is not `Void`.
-
-`"useArrowSyntax"` defaults to `true`, but only actually comes into effect if a Haxe version >= 4.0.0 is used. It uses the new, shorter arrow function syntax from [HXP-0002](https://github.com/HaxeFoundation/haxe-evolution/blob/master/proposals/0002-arrow-functions.md).
