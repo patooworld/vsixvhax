@@ -4,41 +4,37 @@ When a Code Action is available for the current selection / cursor position, thi
 
 To show the available actions, either click the light bulb or press <kbd>Ctrl</kbd>+<kbd>.</kbd>. This will open a popup menu:
 
-![](images/code-actions/popup.png)
+![](images/code-actions/popup_.png)
 
 In case you want to change the default shortcut, the `command` for this keybinding is `"editor.action.quickFix"`.
 
-In the following sections, we will showcase all Code Actions that are associated with [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics). There are also some Code Actions for [Code Generation](/vshaxe/vshaxe/wiki/Code-Generation), please refer to that page for details on those.
+Here is an overview over all Code Actions that currently exist:
 
-### Import actions
-
-There are several code actions to deal with importing unknown identifiers:
+### Imports
 
 #### Add import
 
-![](images/code-actions/add-import.gif)
+![](images/code-actions/add-import_.gif)
 
 #### Change to fully qualified type
 
-![](images/code-actions/fully-qualified.gif)
+![](images/code-actions/fully-qualified_.gif)
 
-### Actions for unused code
-
-There are several code actions that deal with removing unused code:
+### Unused Code
 
 #### Remove unused import/using
 
-![](images/code-actions/unused-import.gif)
+![](images/code-actions/unused-import_.gif)
 
 #### Remove all unused imports/usings
 
-![](images/code-actions/unused-imports.gif)
+![](images/code-actions/unused-imports_.gif)
 
 #### Remove unused variable
 
-![](images/code-actions/unused-var.gif)
+![](images/code-actions/unused-var_.gif)
 
-#### Compiler error actions
+### Compiler Errors
 
 In some cases, simple compiler errors can be fixed via a Code Action:
 
