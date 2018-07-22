@@ -36,7 +36,7 @@ Here is an overview over all Code Actions that currently exist:
 
 ### Compiler Errors
 
-In some cases, simple compiler errors can be fixed via a Code Action:
+In some cases, simple compiler errors can be fixed with a Code Action:
 
 #### Invalid package
 
