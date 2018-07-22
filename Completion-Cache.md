@@ -40,16 +40,12 @@ There are ways to further decrease completion times using the [haxe.macro.Compil
 
 Apart from that, try adding `--times` and `-D macro-times` to your display `.hxml`. Maybe a lot of time is spent on a particular macro that doesn't need to do _quite_ as much work in display mode as in a regular compilation (check for `#if display`).
 
-### How do I disable it?
-
-Add this to your settings to disable completion caching entirely (for instance if your `.hxml` file is only suitable for display requests, but not builds):
-
-```
-"haxe.buildCompletionCache": false
-```
-
 ### Why is a "real" build needed for caching?
 
 When processing display requests (completion, goto definition, hover...), the compiler is in "display mode" and takes some shortcuts to be as fast as possible. Since no full build is performed, the results can't safely be cached and have to be discarded again.
 
 If there is no cache for the compiler to rely on during these requests, the same processing has to be done over and over again from scratch each time. This usually leads to inacceptable completion performance, which is why vshaxe tries to build a cache.
+
+### Configuration
+
+- `"haxe.buildCompletionCache"` - Whether a completion cache should be built on startup. Defaults to `true`.

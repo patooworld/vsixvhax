@@ -5,7 +5,7 @@ The vshaxe extension supports the following settings. They can be configured in 
 For configuration of specific features, please refer to their respective sub-pages:
 
 - [Tasks](/vshaxe/vshaxe/wiki/Tasks#configuration)
-- [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache)
+- [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache#configuration)
 - [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics#configuration)
 - [Signature Help](/vshaxe/vshaxe/wiki/Signature-Help#configuration)
 - [Code Generation](/vshaxe/vshaxe/wiki/Code-Generation#configuration)
