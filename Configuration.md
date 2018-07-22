@@ -33,7 +33,7 @@ The same menu can also be shown by using `Haxe: Select Configuration` command fr
 
 ### Haxe Executable
 
-You can change the executable used for [build tasks](/vshaxe/vshaxe/wiki/Build-Tasks) and the display server with the `"haxe.executable"` setting:
+You can change the executable used for [Build Tasks](/vshaxe/vshaxe/wiki/Build-Tasks) and the display server with the `"haxe.executable"` setting:
 
 ```js
 "haxe.executable": "C:\\HaxeToolkit\\haxe\\haxe.exe"
