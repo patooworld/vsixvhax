@@ -50,6 +50,6 @@ Add this to your settings to disable completion caching entirely (for instance i
 
 ### Why is a "real" build needed for caching?
 
-The Completion Sever can't cache any results during regular display requests (e.g. "show me the fields for this identifier"). In display mode, the compiler relies on some tricks and simplifications to return as quickly as possible. Unfortunately, this also means that results are not useful for caching and have to be thrown away again.
+When processing display requests (completion, goto definition, hover...), the compiler is in "display mode" and takes some shortcuts to be as fast as possible. Since no full build is performed, the results can't safely be cached and have to be discarded again.
 
-However, with many display requests, this quickly adds up to a lot of redundant work, and overall _worse_ performance compared to taking the time to build a proper cache once on startup.
+If there is no cache for the compiler to rely on during these requests, the same processing has to be done over and over again from scratch each time. This usually leads to inacceptable completion performance, which is why vshaxe tries to build a cache.
