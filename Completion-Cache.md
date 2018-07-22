@@ -28,18 +28,6 @@ To illustrate the kind of difference the Completion Cache can make, here's a bef
 
 Needless to say, a completion request taking over a second doesn't feel very snappy. 62 ms on the other hand are quite acceptable. 
 
-### Can I make completion even faster?
-
-There are ways to further decrease completion times using the [haxe.macro.CompilationServer](http://api.haxe.org/haxe/macro/CompilationServer.html?#setModuleCheckPolicy) API introduced in Haxe 3.4.0. By disabling shadowing and dependency checks for Flixel's dependencies in the `.hxml` used for completion, we can get field completion times <span>< 50 ms<span>:
-
-```
---macro server.setModuleCheckPolicy(['flixel', 'openfl', 'lime', 'flash'], [NoCheckShadowing, NoCheckDependencies], true)
-```
-
-![](images/completion-cache/module-check-policy.png)
-
-Apart from that, try adding `--times` and `-D macro-times` to your display `.hxml`. Maybe a lot of time is spent on a particular macro that doesn't need to do _quite_ as much work in display mode as in a regular compilation (check for `#if display`).
-
 ### Why is a "real" build needed for caching?
 
 When processing display requests (completion, goto definition, hover...), the compiler is in "display mode" and takes some shortcuts to be as fast as possible. Since no full build is performed, the results can't safely be cached and have to be discarded again.
