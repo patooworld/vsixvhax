@@ -6,7 +6,7 @@ The vshaxe extension supports the following settings. They can be configured in 
 {
     "haxe.displayConfigurations": [ // one or more configurations for the haxe completion server
         ["-cp", "src", "-js", "main.js"], // a configuration is array of arguments passed to the completion server
-        ["build.hxml"], // hxml file is an normal haxe argument too
+        ["build.hxml"], // hxml file is a normal Haxe argument too
     ],
     "haxe.displayServer": { // configuration for starting haxe completion server itself
         "arguments": ["-v"], // arguments before --wait (-v is useful for debugging)
