@@ -4,7 +4,7 @@
 - [Configuration](https://github.com/vshaxe/vshaxe/wiki/Configuration)
 - [Framework Notes](https://github.com/vshaxe/vshaxe/wiki/Framework-Notes)
 - [Troubleshooting](https://github.com/vshaxe/vshaxe/wiki/Troubleshooting)
-- [Other Extensions](https://github.com/vshaxe/vshaxe/wiki/Other-Extensions)
+- [Recommended Extensions](https://github.com/vshaxe/vshaxe/wiki/Recommended-Extensions)
 
 **Features**
 
