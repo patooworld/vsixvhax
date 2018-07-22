@@ -1,18 +1,18 @@
-For completion to still peform decently in medium to large projects, vshaxe relies on a "Completion Cache". Essentially, it uses the `.hxml` you provided in your [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) to build the project through the Haxe display server once on startup (with `--no-output`). This is also responsible for the slight delay until completion features are available initially.
+For completion to still peform decently in medium to large projects, vshaxe relies on a "Completion Cache". To create this cache, it builds your project through the Haxe display server once on startup (with the display arguments and `--no-output`). This is also the reason for the slight delay until completion features are available initially.
 
 Note that the cache not only impacts the speed of [Completion](/vshaxe/vshaxe/wiki/Completion) itself, but also practically almost every other feature the Haxe Language Server provides as well, since they all rely on various [Compiler Services](https://haxe.org/manual/cr-completion.html).
 
 ### How to tell if the completion cache works?
 
-If everything goes well, you will see this in your Haxe Output Channel:
+If vshaxe was unable to build a cache, you should receive a notification like this:
 
-![](images/completion-cache/good.png)
+![](images/completion-cache/failed-popup.png)
 
-However, if your project has compiler errors at the time the Haxe Language Server is started, or the provided `.hxml` is just not suitable for building, you will see something like this instead:
+"Show Error" takes you to the Haxe output channel and the full error message:
 
-![](images/completion-cache/bad.png)
+![](images/completion-cache/failed-output-channel.png)
 
-In this case, you can try fixing the error and invoke the [Restart Language Server](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command.
+After fixing the error, you can use the [Restart Language Server](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-restart-language-server) command to trigger antoher cache build.
 
 ### How big is the impact?
 
