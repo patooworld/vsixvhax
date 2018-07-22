@@ -102,10 +102,6 @@ The configuration for this varies if you are using a framework with a different 
 <haxeflag name="--connect" value="6000" />
 ```
 
->**Known issues:** 
->- Configuration using a specific port is not very convenient, since this breaks down as soon as you have multiple VSCode windows open (and would need to specify different ports for each workspace). We are looking for ways to improve this in the future ([#79](https://github.com/vshaxe/vshaxe/issues/79)).
->- The Haxe Compilation Server is known to have some issues, several of which are reported on the Haxe repo and might be resolved in the future. If you encounter weird compiler errors that don't happen in a regular compilation, you might want to avoid building through the completion server.
-
 ### Feature-specific configuration
 
 For configuration of specific features, please refer to their respective sub-pages:
