@@ -1,4 +1,4 @@
-Beyond vshaxe itself (and the other extensions included in our [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack)), there are a plethora of third-party VSCode extensions that will enhance your workflow. Here are our personal favorites:
+Beyond vshaxe itself (and the other extensions included in our [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack)), there are a plethora of third-party VSCode extensions that will enhance your workflow. Here are some of our personal favorites:
 
 ### vscode-icons
 
