@@ -6,7 +6,7 @@ There are three ways to use "Go to Definition" on an identifier:
 
 - Use the context menu:
   
-  ![](images/go-to-definition/context-menu.png)
+  ![](images/go-to-definition/context-menu_.png)
 
 - Press <kbd>F12</kbd>
 
