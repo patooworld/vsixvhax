@@ -2,9 +2,11 @@ Vshaxe auto-discovers `.hxml` files in the root directory of your project and ge
 
 ![](images/build-tasks/auto-detected-tasks.png)
 
-You can configure one of the tasks to be the "default build task" via `Tasks` -> `Run Build Task...`. This creates a `tasks.json` and allows running that task directly with a shortcut (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> by default).
+You can configure one of the tasks to be the "default build task" via `Tasks` -> `Configure Default Build Task...`. This creates a `tasks.json` and allows running that task directly with a shortcut (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> by default).
 
->**Note**: in projects with multiple `.hxml` files / configurations, it usually makes sense to pick `haxe: active configuration` as your default build task. This then lets you conveniently select the task to be built [with the `Select Configuration` command or the dropdown menu in the status bar](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-select-configuration).
+> **Tip:** when configuring a default build task, VSCode inserts a list of `problemMatchers` into your `tasks.json`. Unless you want to customize them, this is redundant and can safely be removed.
+
+> **Tip**: in projects with multiple `.hxml` files / configurations, it usually makes sense to pick `haxe: active configuration` as your default build task. This then lets you conveniently select the task to be built [with the `Select Configuration` command or the dropdown menu in the status bar](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-select-configuration).
 
 Output of tasks is printed to the Terminal:
 
