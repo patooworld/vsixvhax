@@ -19,9 +19,3 @@ Toplevel completion is also triggered automatically when typing the `:` in a typ
 Whenever `@:` is typed, a list of [compiler metadata](https://haxe.org/manual/cr-metadata.html) is presented to you:
 
 ![](images/completion/metadata.png)
-
-### `--times` Completion
-
-When you add `--times` (and optionally `-D macro-times`) to your completion `.hxml` (see also: [Display Configurations](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server)), the times are shown at the top of field and toplevel completion for convenience. This is useful for debugging completion speeds, which can be heavily impacted by careless use of macros or be much slower than they should be if your [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache) isn't working.
-
-![](images/completion/times.png)

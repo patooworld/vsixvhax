@@ -16,7 +16,7 @@ For instance in this case, our `Main.hx` is missing an import for `haxe.Json`. A
 
 ### How big is the impact?
 
-To illustrate the kind of difference the Completion Cache can make, here's a before / after of field completion in an (empty) HaxeFlixel project (using [--times completion](/vshaxe/vshaxe/wiki/Completion#--times-completion)).
+To illustrate the kind of difference the Completion Cache can make, here's a before / after of field completion in an (empty) HaxeFlixel project.
 
 **Before:**
 
