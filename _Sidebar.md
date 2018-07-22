@@ -12,6 +12,7 @@
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
 - [Dependency Explorer](https://github.com/vshaxe/vshaxe/wiki/Dependency-Explorer)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
+- [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 - [Completion Cache](https://github.com/vshaxe/vshaxe/wiki/Completion-Cache)
 - [Signature Help](https://github.com/vshaxe/vshaxe/wiki/Signature-Help)
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
@@ -25,7 +26,6 @@
 - [Outline](https://github.com/vshaxe/vshaxe/wiki/Outline)
 - [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
-- [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 - [Extension API](https://github.com/vshaxe/vshaxe/wiki/Extension-API)
 
