@@ -46,7 +46,7 @@ This command lets you debug the currently selected configuration, assuming there
 }
 ```
 
-Effectively, this means that `Select Configuration` offers a unified way to switch the target used for:
+Effectively, this means that the [`Haxe: Select Configuration` command](#haxe-select-configuration) offers a unified way to switch the target used for:
 
 - code completion
 - the default build task
