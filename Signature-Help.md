@@ -17,3 +17,7 @@ Signature Help doesn't only work for methods, but also [enum constructors that h
 If a method has overloads (only possible with [externs](https://haxe.org/manual/lf-externs.html) in Haxe), you can use the <kbd>▲</kbd> and <kbd>▼</kbd> keys to switch between them:
 
 ![](images/signature-help/overloads.gif)
+
+### Configuration
+
+- `"haxe.enableSignatureHelpDocumentation"` - Lets you hide documentation in signature help popups if you find they take too much space.
