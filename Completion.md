@@ -1,3 +1,5 @@
+Completion is triggered automatically when typing certain trigger characters. It can also be invoked manually with <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
+
 ### Field Completion
 
 The simplest and most commonly used form of completion is field / "dot" completion. It is invoked whenever a dot is typed after an identifier to show the available variables, properties and methods for it:
@@ -6,7 +8,7 @@ The simplest and most commonly used form of completion is field / "dot" completi
 
 ### Toplevel Completion
 
-Toplevel completion gets its name from showing you the available "top level" identifiers, such as imported types or enum values. It can be invoked manually using <kbd>Ctrl</kbd>+<kbd>Space</kbd> anywhere in the document:
+Toplevel completion gets its name from showing you the available "top level" identifiers, such as imported types or enum values. It usually needs to be triggered manually.
 
 ![](images/completion/toplevel.png)
 
@@ -18,6 +20,6 @@ Completion is triggered automatically when typing the `:` in a type hint, showin
 
 ### Compiler Metadata Completion
 
-Whenever `@:` is typed, a list of [compiler metadata](https://haxe.org/manual/cr-metadata.html) is presented to you:
+When typing `@`, the available [compiler metadata](https://haxe.org/manual/cr-metadata.html) is listed:
 
 ![](images/completion/metadata.png)
