@@ -15,5 +15,5 @@ Compiler errors that occur during a task's execution are picked up by the "Probl
 
 ### Configuration
 
-- `"haxe.displayPort"` - Allows connecting to vshaxe's Haxe server process for faster compilation. The setting defaults to `"auto"`, meaning that for each new instance of VSCode you open, a new unique port will be picked.
+- `"haxe.displayPort"` - Allows connecting to the Language Server's Haxe process for faster compilation. The setting defaults to `"auto"`, meaning that for each new instance of VSCode you open, a new unique port will be picked.
 - `"haxe.enableCompilationServer"` - Whether auto-generated tasks should connect to the port picked by `"haxe.displayPort"`. Defaults to `true`.
