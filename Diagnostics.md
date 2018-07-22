@@ -18,7 +18,7 @@ Diagnostics can not only inform you about invalid, but also unused code. One exa
 
 ![](images/diagnostics/unused-import.png)
 
->**Known issues**: an import will be reported as "unused" if it is only used in another [Conditional Compilation](https://haxe.org/manual/lf-condition-compilation.html) branch that is not active with the current [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server). For instance, the imported type might only be used within an `#if cpp` - block, but you're currently targeting JavaScript. In this case, the import(s) should be wrapped in `#if cpp` as well to avoid the warning.
+>**Note**: an import will be reported as "unused" if it is only used in another [Conditional Compilation](https://haxe.org/manual/lf-condition-compilation.html) branch that is not active with the current [Display Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server). For instance, the imported type might only be used within an `#if cpp` - block, but you're currently targeting JavaScript. In this case, the import(s) should be wrapped in `#if cpp` as well to avoid the warning.
 
 Another example are unused local variables and expressions whose values are not used for anything:
 
