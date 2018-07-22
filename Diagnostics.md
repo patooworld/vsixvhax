@@ -1,8 +1,8 @@
-"Diagnostics" are what may be responsible for red or green squiggly lines you may have seen in your code (note that the problem matcher when running a [build task](/vshaxe/vshaxe/wiki/Build-Tasks) can also add these, however).
+"Diagnostics" are what may be responsible for red or green squiggly lines you may have seen in your code (note that the problem matcher when running a [Task](/vshaxe/vshaxe/wiki/Tasks) can also add these, however).
 
 ![](images/diagnostics/invalid.png)
 
-Like errors during build tasks, Diagnostics are also shown in the Problems view:
+Like errors during tasks, Diagnostics are also shown in the Problems view:
 
 ![](images/diagnostics/problems.png)
 
