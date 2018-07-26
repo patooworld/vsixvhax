@@ -1,4 +1,4 @@
-Through [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols), the Haxe extensions also adds support for VSCode's built-in Outline view. It can be opened with the `File: Focus on Outline` command:
+Through [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols), the Haxe extension also adds support for VSCode's built-in Outline view. It can be opened with the `File: Focus on Outline` command:
 
 ![](images/outline/command.png)
 
