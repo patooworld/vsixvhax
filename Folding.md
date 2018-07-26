@@ -21,3 +21,17 @@ Multi-line string and array literals can be folded as well:
 ![](images/folding/array-literal.gif)
 
 ![](images/folding/string-literal.gif)
+
+### Region Folding
+
+You can also use single-line comments to define "regions" of code that can be collapsed:
+
+![](images/folding/regions.gif)
+
+The following three styles are supported:
+
+- `// #region <name>` - `// #endregion`
+- `// region <name>` - `// end region`
+- `// { region <name>` - `// } endregion`
+
+Regions can also be nested.
