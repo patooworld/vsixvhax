@@ -24,6 +24,7 @@
 - [Document Symbols](https://github.com/vshaxe/vshaxe/wiki/Document-Symbols)
 - [Workspace Symbols](https://github.com/vshaxe/vshaxe/wiki/Workspace-Symbols)
 - [Outline](https://github.com/vshaxe/vshaxe/wiki/Outline)
+- [Folding](https://github.com/vshaxe/vshaxe/wiki/Folding)
 - [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
