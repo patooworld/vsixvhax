@@ -45,3 +45,13 @@ In some cases, simple compiler errors can be fixed with a Code Action:
 #### Typo suggestions
 
 ![](images/code-actions/typo-suggestion_.gif)
+
+### Configuration
+
+- `"editor.codeActionsOnSave"` - Code Actions to be applied when the file is saved. This can be used to trigger the [Remove all unused imports/usings](#remove-all-unused-importsusings) code action on save:
+    
+	```json
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+	}
+	```
