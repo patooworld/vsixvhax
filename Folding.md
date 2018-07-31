@@ -1,5 +1,3 @@
-> **Note:** the features on this page will become available with the next version of vshaxe (2.3.0).
-
 VSCode has some basic, indentation-based folding that works for all languages built-in (so you can fold `{}` blocks etc). The Haxe extension however provides a custom folding implementation that better understands Haxe syntax, adding the following features:
 
 ### Import Folding
