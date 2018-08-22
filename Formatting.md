@@ -1,7 +1,15 @@
 The Haxe extension has built-in code formatting support using [haxe-formatter](https://github.com/HaxeCheckstyle/haxe-formatter). There's two ways to trigger formatting:
 
 - Run the `Format Document` command (<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F</kbd>).
-- Enable `"editor.formatOnSave"` in your settings for formatting to be applied automatically when you save a document. This makes for a very convenient workflow where you can just type out some code without worrying too much about correct whitespace or indentation, and then have everything formatted nicely on <kbd>Ctrl</kbd>+<kbd>S</kbd>.
+- Enable "format on save" for formatting to be applied automatically whenever you save a document. This makes for a very convenient workflow where you can just type out some code without worrying too much about correct whitespace or indentation, and then have everything formatted nicely on <kbd>Ctrl</kbd>+<kbd>S</kbd>.
+  
+  You can place the setting in a `[haxe]` block so it only applies to `.hx` files:
+
+  ```json
+  "[haxe]": {
+      "editor.formatOnSave": true
+  }
+  ```
 
 ![](images/formatting/formatOnSave.gif)
 
