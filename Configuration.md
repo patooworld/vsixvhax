@@ -10,6 +10,7 @@ For configuration of specific features, please refer to their respective sub-pag
 - [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics#configuration)
 - [Code Actions](/vshaxe/vshaxe/wiki/Code-Actions#configuration)
 - [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens)
+- [Formatting](/vshaxe/vshaxe/wiki/Formatting#configuration)
 - [Completion Cache](/vshaxe/vshaxe/wiki/Completion-Cache#configuration)
 
 ### Haxe Executable

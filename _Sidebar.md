@@ -28,6 +28,7 @@
 - [Diagnostics](https://github.com/vshaxe/vshaxe/wiki/Diagnostics)
 - [Code Actions](https://github.com/vshaxe/vshaxe/wiki/Code-Actions)
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
+- [Formatting](https://github.com/vshaxe/vshaxe/wiki/Formatting)
 - [Extension API](https://github.com/vshaxe/vshaxe/wiki/Extension-API)
 
 **Releases**
