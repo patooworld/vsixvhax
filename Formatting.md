@@ -19,7 +19,7 @@ If you ever accidentally find-and-replace all indentation with an empty string, 
 
 ### Transition
 
-When you first start using code formatting in a project, you probably want to reformat all files at once instead of having to trigger "format document" on each file individually. This is especially true if you're using a version control system such as Git, where reformatting might trigger a large diff that you want to be contained within a single commit.
+When you first start using code formatting in a project, you probably want to reformat all files at once instead of having to trigger "format document" on each file individually. This is especially true if you're using a version control system such as Git, in which case you probably want to limit the diff caused by reformatting to a single commit.
 
 To conveniently format entire directories of source files, you can use the command line version of haxe-formatter that's available on Haxelib:
 
