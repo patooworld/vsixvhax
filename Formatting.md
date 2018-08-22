@@ -30,7 +30,7 @@ haxelib run formatter -s <source-directory>
 
 ### Configuration
 
-While using haxe-formatter's default style is encouraged, it's also highly configurable. A file uses the `hxformat.json` file that is closest to it. Most projects have a consistent style and thus only need one `hxformat.json` in the project root directory (unless they use the default style).
+While using haxe-formatter's default code style is encouraged, it's also highly configurable. A source file uses the `hxformat.json` file that is closest to it. Most projects have a consistent style and thus only need one `hxformat.json` in the project root directory (unless they use the default style).
 
 The Haxe extension includes a JSON schema for `hxformat.json`, which enables auto-completion as well as some documentation:
 
