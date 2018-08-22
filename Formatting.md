@@ -35,3 +35,5 @@ While using haxe-formatter's default style is encouraged, it's also highly confi
 The Haxe extension includes a JSON schema for `hxformat.json`, which enables auto-completion as well as some documentation:
 
 ![](images/formatting/schema.png)
+
+For more details, check out [haxe-formatter's readme](https://github.com/HaxeCheckstyle/haxe-formatter/blob/master/README.md).
