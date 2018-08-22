@@ -10,3 +10,15 @@ With the `Follow Cursor` option, the outline can be configured to automatically 
 ![](images/outline/configure.png)
 
 You might also want to consider switching to `Sort By: Position` for symbols to be listed in the same order as they appear in the source file.
+
+______
+
+The same underlying outline data can also be presented in a different way with _Breadcrumbs Navigation_:
+
+![](images/outline/breadcrumbs.png)
+
+You can enable breadcrumbs with the `Toggle Breadcrumbs` command or by adding the following to your settings manually:
+
+```json
+"breadcrumbs.enabled": true
+```
