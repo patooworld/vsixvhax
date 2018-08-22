@@ -15,7 +15,7 @@ The Haxe extension has built-in code formatting support using [haxe-formatter](h
 
 If you ever accidentally find-and-replace all indentation with an empty string, that's also no problem:
 
-![](images/formatting/indentation.gif)
+![](images/formatting/indentation_.gif)
 
 ### Transition
 
