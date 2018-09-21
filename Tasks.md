@@ -1,8 +1,8 @@
-The Haxe extension auto-discovers `.hxml` files in the root directory of your project and generates [Tasks](https://code.visualstudio.com/docs/editor/tasks) for them. You can access them with `Tasks` -> `Run Task...`:
+The Haxe extension auto-discovers `.hxml` files in the root directory of your project and generates [Tasks](https://code.visualstudio.com/docs/editor/tasks) for them. You can access them with `Terminal` -> `Run Task...`:
 
 ![](images/tasks/auto-detected-tasks.png)
 
-You can configure one of the tasks to be the "default build task" via `Tasks` -> `Configure Default Build Task...`. This creates a `tasks.json` and allows running that task directly with a shortcut (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> by default).
+You can configure one of the tasks to be the "default build task" via `Terminal` -> `Configure Default Build Task...`. This creates a `tasks.json` and allows running that task directly with a shortcut (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> by default).
 
 > **Tip:** when configuring a default build task, VSCode inserts a list of `problemMatchers` into your `tasks.json`. Unless you want to customize them, this is redundant and can safely be removed.
 
