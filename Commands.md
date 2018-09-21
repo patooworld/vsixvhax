@@ -5,7 +5,7 @@ typing part of the command name. All commands are prefixed with `Haxe`:
 
 Scaffolds a very basic Haxe project in an empty workspace.
 
-![](images/commands/initialize-vscode-project.gif)
+![](images/commands/initialize-vscode-project_.gif)
 
 ### Haxe: Restart Language Server
 
