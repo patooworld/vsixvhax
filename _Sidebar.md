@@ -10,6 +10,7 @@
 **Features**
 
 - [Tasks](https://github.com/vshaxe/vshaxe/wiki/Tasks)
+- [Debugging](https://github.com/vshaxe/vshaxe/wiki/Tasks)
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
 - [Dependency Explorer](https://github.com/vshaxe/vshaxe/wiki/Dependency-Explorer)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
