@@ -60,6 +60,12 @@ The latter option is also available for plain integers:
 
 ![](images/code-generation/postfix-fori.gif)
 
+#### For Key => Value
+
+For `haxe.ds.Map` and `haxe.ds.List`, you can generate a `key => value` loop:
+
+![](images/code-generation/postfix-for-key-value.gif)
+
 ### Pattern Completion
 
 When selecting an enum constructor from completion inside a pattern (after a `case` in a `switch`), capture variables for the arguments are auto-inserted:
