@@ -34,8 +34,8 @@
 
 **Releases**
 
-- [What's New in 1.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-1.0.0)
-- [What's New in 1.10.0](https://community.haxe.org/t/vshaxe-1-10-0-released/567)
-- [What's New in 2.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-2.0.0)
-- [What's New in 2.6.0](https://community.haxe.org/t/vshaxe-2-6-0-released-with-macro-debugging/1513)
-- [What's New in 2.8.0](https://community.haxe.org/t/vshaxe-2-8-0-released/1618)
+- [1.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-1.0.0)
+- [1.10.0](https://community.haxe.org/t/vshaxe-1-10-0-released/567)
+- [2.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-2.0.0)
+- [2.6.0](https://community.haxe.org/t/vshaxe-2-6-0-released-with-macro-debugging/1513)
+- [2.8.0](https://community.haxe.org/t/vshaxe-2-8-0-released/1618)
