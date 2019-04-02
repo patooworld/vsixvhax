@@ -8,6 +8,8 @@ To show the available actions, either click the light bulb or press <kbd>Ctrl</k
 
 In case you want to change the default shortcut, the `command` for this keybinding is `"editor.action.quickFix"`.
 
+Additionally, there's also an "Auto Fix" command (`"editor.action.autoFix"`) that directly applies the "preferred" code action if one exists (usually the first one), without opening a menu. The default shortcut is <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>.</kbd>.
+
 Here is an overview over all Code Actions that currently exist:
 
 ### Imports
