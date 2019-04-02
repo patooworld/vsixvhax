@@ -50,19 +50,19 @@ For enums or enum abstracts, Postfix Completion allows generating a complete `sw
 
 #### For-Each Loop
 
-For arrays, there's two options: either generate a regular for-each loop using an iterator, or an indexed for loop, in case you need the index for something.
+If a type has an [Iterator](https://haxe.org/manual/lf-iterators.html), a for loop can be generated for it:
 
 ![](images/code-generation/postfix-for.gif)
 
 #### Indexed For Loop
 
-The latter option is also available for plain integers:
+Indexed for loop generation is available on integers or types with fields named `length` / `count` / `size`:
 
 ![](images/code-generation/postfix-fori.gif)
 
 #### For Key => Value
 
-For `haxe.ds.Map` and `haxe.ds.List`, you can generate a `key => value` loop:
+For any type that has a `keyValueIterator()`, such as `haxe.ds.Map` and `haxe.ds.List`, you can generate a `key => value` loop:
 
 ![](images/code-generation/postfix-for-key-value.gif)
 
