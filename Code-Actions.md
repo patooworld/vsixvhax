@@ -48,7 +48,7 @@ In some cases, simple compiler errors can be fixed with a Code Action:
 
 ![](images/code-actions/typo-suggestion_.gif)
 
-### Missing override keyword
+#### Missing override keyword
 
 ![](images/code-actions/missing-override-keyword.gif)
 
