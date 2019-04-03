@@ -4,7 +4,7 @@ The easiest way to install the latest vshaxe release is by searching the VSCode 
 
 ![](images/installation/marketplace.gif)
 
-Alternatively, press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install vshaxe`.
+Alternatively, press <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter `ext install haxe`. The first result should be "Haxe language support".
 
 However, instead of installing vshaxe directly, you might want to consider installing the [Haxe Extension Pack](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-extension-pack) instead. Apart from vshaxe itself, it also contains several debuggers (HXCPP, HashLink, Flash) and [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox) (for doc comment generation) extensions.
 
