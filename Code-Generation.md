@@ -1,4 +1,4 @@
-> **Note:** the Code Generation features on this page all require Haxe 4.0.0-preview.4 or newer.
+> **Note:** the features on this page all require Haxe 4.0.0-preview.4 or newer.
 
 ### Auto-Imports
 
@@ -37,34 +37,6 @@ Expected type completion can also be used in places where a function type is exp
 After typing the `override` keyword, you are offered a list of functions you can currently override. Selecting one of them will generate the code for it, complete with imports.
 
 ![](images/code-generation/override-completion.gif)
-
-### Postfix Completion
-
-Postfix completion is triggered when "dot-completing" on identifiers with a certain type.
-
-#### Switch-Case
-
-For enums or enum abstracts, Postfix Completion allows generating a complete `switch` expression:
-
-![](images/code-generation/postfix-switch.gif)
-
-#### For-Each Loop
-
-If a type has an [Iterator](https://haxe.org/manual/lf-iterators.html), a for loop can be generated for it:
-
-![](images/code-generation/postfix-for.gif)
-
-#### Indexed For Loop
-
-Indexed for loop generation is available on integers or types with fields named `length` / `count` / `size`:
-
-![](images/code-generation/postfix-fori.gif)
-
-#### For Key => Value
-
-For any type that has a `keyValueIterator()`, such as `haxe.ds.Map` and `haxe.ds.List`, you can generate a `key => value` loop:
-
-![](images/code-generation/postfix-for-key-value.gif)
 
 ### Pattern Completion
 

@@ -8,6 +8,8 @@ The simplest and most commonly used form of completion is field / "dot" completi
 
 ![](images/completion/field_.png)
 
+A special kind of field completion for code generation is [Postfix Completion](https://github.com/vshaxe/vshaxe/wiki/Postfix-Completion).
+
 ### Toplevel Completion
 
 Toplevel completion gets its name from showing you the available "top level" identifiers, such as imported types or enum values. It usually needs to be triggered manually.
