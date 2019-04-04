@@ -14,7 +14,7 @@
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
 - [Dependency Explorer](https://github.com/vshaxe/vshaxe/wiki/Dependency-Explorer)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
-- [Postifx Completion](https://github.com/vshaxe/vshaxe/wiki/Postfix-Completion)
+- [Postfix Completion](https://github.com/vshaxe/vshaxe/wiki/Postfix-Completion)
 - [Code Generation](https://github.com/vshaxe/vshaxe/wiki/Code-Generation)
 - [Signature Help](https://github.com/vshaxe/vshaxe/wiki/Signature-Help)
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
