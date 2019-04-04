@@ -20,6 +20,14 @@ For any type that has a `keyValueIterator()`, such as `haxe.ds.Map` and `haxe.ds
 
 ![](images/postfix-completion/for-key-value_.gif)
 
+### Var
+
+![](images/postfix-completion/var.gif)
+
+### Final
+
+![](images/postfix-completion/final.gif)
+
 #### Switch-Case
 
 For enums or enum abstracts, Postfix Completion allows generating a complete `switch` expression:
