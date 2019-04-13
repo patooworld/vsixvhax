@@ -2,7 +2,7 @@
 
 ![](images/diagnostics/invalid.png)
 
-Like errors during tasks, Diagnostics are also shown in the Problems view:
+Like errors from tasks, Diagnostics are also shown in the Problems view:
 
 ![](images/diagnostics/problems.png)
 
