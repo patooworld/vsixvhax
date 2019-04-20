@@ -20,11 +20,11 @@ For any type that has a `keyValueIterator()`, such as `haxe.ds.Map` and `haxe.ds
 
 ![](images/postfix-completion/for-key-value_.gif)
 
-### Var
+#### Var
 
 ![](images/postfix-completion/var.gif)
 
-### Final
+#### Final
 
 ![](images/postfix-completion/final.gif)
 
