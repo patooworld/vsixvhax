@@ -33,3 +33,13 @@ For any type that has a `keyValueIterator()`, such as `haxe.ds.Map` and `haxe.ds
 For enums or enum abstracts, Postfix Completion allows generating a complete `switch` expression:
 
 ![](images/postfix-completion/switch_.gif)
+
+### Configuration
+
+- `"haxe.postfixCompletion"` can be used to hide some or all postfix completion items:
+
+	```json
+	"haxe.postfixCompletion": {
+		"level": "filtered"
+	}
+	```
