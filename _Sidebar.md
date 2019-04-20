@@ -41,3 +41,4 @@
 - [2.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-2.0.0)
 - [2.6.0](https://community.haxe.org/t/vshaxe-2-6-0-released-with-macro-debugging/1513)
 - [2.8.0](https://community.haxe.org/t/vshaxe-2-8-0-released/1618)
+- [2.9.0](https://community.haxe.org/t/vshaxe-2-9-0-released-with-snippets/1687)
