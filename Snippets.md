@@ -1,3 +1,5 @@
+> **Note:** the features on this page all require Haxe 4.0.0-preview.4 or newer.
+
 The Haxe extension includes a number of context-sensitive snippets in completion.
 
 ### `package`
