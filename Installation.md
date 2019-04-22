@@ -15,7 +15,7 @@ Some frameworks have dedicated extensions that integrate with vshaxe:
 
 ### From Source
 
-If you want to contribute to vshaxe, or just prefer working directly from source, you can follow these steps to install vshaxe from GitHub. Note that building vshaxe frequently requires the latest [nightly build of Haxe](http://build.haxe.org/builds/haxe/).
+If you want to contribute to vshaxe, or just prefer working directly from source, you can follow these steps to install vshaxe from GitHub. Note that building vshaxe often requires the latest [nightly build of Haxe](http://build.haxe.org/builds/haxe/).
 
 1. Navigate to the extensions folder (`C:\Users\<username>\.vscode\extensions` on Windows, `~/.vscode/extensions` otherwise)
 2. Remove the existing marketplace installation of vshaxe if present, since it would override the version checked out from source (a folder named `nadako.vshaxe-<version>`).
