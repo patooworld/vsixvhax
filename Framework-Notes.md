@@ -20,11 +20,11 @@ For Kha, there is an [extension pack](https://marketplace.visualstudio.com/items
 
 ---
 
-For other frameworks that don't have a dedicated VSCode extension integrating with vshaxe, you need to obtain a `*.hxml` file for code completion to work. You can then add it to the display configurations like this (or simply select it from the status bar if it's located in the project's root directory):
+For other frameworks that don't have a dedicated VSCode extension integrating with vshaxe, you need to obtain a `*.hxml` file for code completion to work. You can then add it to the configurations like this (or simply select it from the status bar if it's located in the project's root directory):
 
 ```json
 {
-    "haxe.displayConfigurations": [
+    "haxe.configurations": [
         ["completion.hxml"]
     ]
 }

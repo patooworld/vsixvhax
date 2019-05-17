@@ -38,11 +38,11 @@ You can also have more complex settings that include environment variables or OS
 }
 ```
 
-### Display Configurations and Display Server
+### Configurations and Display Server
 
 ```js
 {
-    "haxe.displayConfigurations": [ // one or more configurations for the haxe completion server
+    "haxe.configurations": [ // one or more configurations for the haxe completion server
         ["-cp", "src", "-js", "main.js"], // a configuration is array of arguments passed to the completion server
         ["build.hxml"], // hxml file is a normal Haxe argument too
     ],
@@ -52,18 +52,18 @@ You can also have more complex settings that include environment variables or OS
 }
 ```
 
-Beware that display configurations specified in `"haxe.displayConfigurations"` should only contain arguments suitable for
+Beware that configurations specified in `"haxe.configurations"` should only contain arguments suitable for
 completion, such as `-cp`, `-lib`, `-D` and target output (`-js`, `-cpp`, etc.). This is particularly important when
 specifying an `.hxml` file for completion: make sure it doesn't contain `--next`, `--each` and other arguments
 not suitable for completion.
 
-#### Multiple Display Configurations
+#### Multiple Configurations
 
-Multiple display configurations are useful when working with a codebase that is meant
+Multiple configurations are useful when working with a codebase that is meant
 to be compiled for different Haxe targets, or with a different set of defines. If
-there is more than one configuration provided in the `"haxe.displayConfigurations"` setting,
-when a `.hx` file is open, a selection appears in the status bar allowing to switch current
-display configuration:
+there is more than one configuration provided in the `"haxe.configurations"` setting,
+when a `.hx` file is open, a selection appears in the status bar allowing to switch the current
+configuration:
 
 ![](images/configuration/configs.gif)
 

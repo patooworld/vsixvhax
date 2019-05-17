@@ -11,7 +11,7 @@ There's also a debugger for Haxe 4's new macro interpreter called ["Eval"](https
 
 ![](images/debugging/example.png)
 
-With a minimal `launch.json`, the debugger is started using the `haxe` specified by the [`"haxe.executable"` setting](/vshaxe/vshaxe/wiki/Configuration#haxe-executable) and with the arguments from the currently selected [Haxe Configuration](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server):
+With a minimal `launch.json`, the debugger is started using the `haxe` specified by the [`"haxe.executable"` setting](/vshaxe/vshaxe/wiki/Configuration#haxe-executable) and with the arguments from the currently selected [Haxe Configuration](/vshaxe/vshaxe/wiki/Configuration#configurations-and-display-server):
 
 ```json
 {

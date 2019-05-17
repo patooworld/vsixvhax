@@ -1,6 +1,6 @@
 ### Completion doesn't work at all
 
-If completion features still aren't working after configuring everything (see [Display Configurations](/vshaxe/vshaxe/wiki/Configuration#display-configurations-and-display-server) and [Framework Notes](/vshaxe/vshaxe/wiki/Framework-Notes)), there are some steps you can take to find the culprit.
+If completion features still aren't working after configuring everything (see [Configurations](/vshaxe/vshaxe/wiki/Configuration#configurations-and-display-server) and [Framework Notes](/vshaxe/vshaxe/wiki/Framework-Notes)), there are some steps you can take to find the culprit.
 
 Output from the Haxe Language Server is logged to the Haxe Output Channel. Here's how to reach it and what it might look like when trying to access a class from a dependency vshaxe doesn't know about (missing `-lib json2object` in the display `.hxml` file):
 
