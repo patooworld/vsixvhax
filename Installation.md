@@ -19,22 +19,27 @@ If you want to contribute to vshaxe, or just prefer working directly from source
 
 1. Navigate to the extensions folder (`C:\Users\<username>\.vscode\extensions` on Windows, `~/.vscode/extensions` otherwise)
 2. Remove the existing marketplace installation of vshaxe if present, since it would override the version checked out from source (a folder named `nadako.vshaxe-<version>`).
-3. Clone this repo and install the build tool:
+3. Clone this repo, as well as the extension for the `vshaxe-build` build tool:
 
     ```
     git clone https://github.com/vshaxe/vshaxe --recursive 
     git clone https://github.com/vshaxe/vshaxe-build
-    haxelib dev vshaxe-build vshaxe-build
     ```
 
 4. Change current directory to the cloned one: `cd vshaxe`.
-5. To build both client and server in debug mode (as well as install all dependencies):
+5. Install the dependencies
+
+   ```
+   npm install
+   ```
+
+5. To build both client and server in debug mode:
 
     ```
-    haxelib run vshaxe-build --target vshaxe --debug --mode both
+    npx lix run vshaxe-build -t vshaxe --debug
     ```
   
-    After initially building _and_ installing the dependencies (with `--mode both`), the usual workflow is to only _rebuild_ vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
+    After the initial build, the usual workflow is to rebuild vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
 
     ![](images/installation/build-task.png)
 
