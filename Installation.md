@@ -22,7 +22,7 @@ If you want to contribute to vshaxe, or just prefer working directly from source
 3. Clone this repo, as well as the extension for the `vshaxe-build` build tool:
 
     ```
-    git clone https://github.com/vshaxe/vshaxe --recursive 
+    git clone https://github.com/vshaxe/vshaxe --recursive
     git clone https://github.com/vshaxe/vshaxe-build
     ```
 
