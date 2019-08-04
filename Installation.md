@@ -39,7 +39,7 @@ If you want to contribute to vshaxe, or just prefer working directly from source
     npx lix run vshaxe-build -t vshaxe --debug
     ```
   
-    After the initial build, the usual workflow is to rebuild vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
+    After the initial build, the usual workflow is to rebuild vshaxe using the `vshaxe (debug)` [build task](/vshaxe/vshaxe/wiki/Build-Tasks) (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>). **Note:** this requires having the [lix extension](https://marketplace.visualstudio.com/items?itemName=lix.lix) installed.
 
     ![](images/installation/build-task.png)
 
