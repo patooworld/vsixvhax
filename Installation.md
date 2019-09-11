@@ -26,7 +26,12 @@ If you want to contribute to vshaxe, or just prefer working directly from source
     git clone https://github.com/vshaxe/vshaxe-build
     ```
 
-4. Change current directory to the cloned one: `cd vshaxe`.
+4. Change current directory to the cloned one:
+
+   ```
+   cd vshaxe
+   ```
+
 5. Install the dependencies:
 
    ```
