@@ -7,7 +7,8 @@ The Haxe extension has built-in code formatting support using [haxe-formatter](h
 
   ```json
   "[haxe]": {
-      "editor.formatOnSave": true
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
   }
   ```
 
