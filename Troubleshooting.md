@@ -27,7 +27,7 @@ If completion works, but is slower than expected, make sure the [Completion Cach
 A convenient way to debug slow completion is to use the built-in "Haxe Methods" view (requires Haxe 4.0.0-preview.4 or newer):
 
 ```json
-"haxe.enableMethodsView": true
+"haxe.enableServerView": true
 ```
 
 This adds a tree view to your explorer with detailed information about what took how much time for a particular method. This is an example of completion working well, with < 100 ms:
