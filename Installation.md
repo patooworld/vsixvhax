@@ -1,4 +1,4 @@
->**IMPORTANT**: vshaxe requires Haxe 3.4.0 or newer and works best with [Haxe 4.0.0-rc.5](https://haxe.org/download/version/4.0.0-rc.5/).
+>**IMPORTANT**: vshaxe requires Haxe 3.4.0 or newer and works best with [the latest Haxe 4 release](https://haxe.org/download/).
 
 The easiest way to install the latest vshaxe release is by searching the VSCode marketplace for "Haxe":
 
