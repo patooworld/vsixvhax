@@ -13,6 +13,7 @@
 - [Debugging](https://github.com/vshaxe/vshaxe/wiki/Debugging)
 - [Commands](https://github.com/vshaxe/vshaxe/wiki/Commands)
 - [Dependency Explorer](https://github.com/vshaxe/vshaxe/wiki/Dependency-Explorer)
+- [Auto Indentation](https://github.com/vshaxe/vshaxe/wiki/Auto-Indentation)
 - [Completion](https://github.com/vshaxe/vshaxe/wiki/Completion)
 - [Postfix Completion](https://github.com/vshaxe/vshaxe/wiki/Postfix-Completion)
 - [Snippets](https://github.com/vshaxe/vshaxe/wiki/Snippets)
