@@ -54,14 +54,24 @@ In some cases, simple compiler errors can be fixed with a Code Action:
 
 ### Source Actions
 
-Source Actions are special code actions that apply to the whole document, so they are not available contextually. You can select "Source Action..." from the context menu anywhere in the document to get a list:
+Source Actions are special code actions that apply to the whole document, so they are not available contextually. You can select "Source Action..." from the context menu anywhere in the document to get a complete list:
 
 ![](images/code-actions/source-actions-1.png)
 ![](images/code-actions/source-actions-2.png)
 
 ### Sort imports/usings
 
+Sorts imports and usings in a module alphabetically.
+
+![](images/code-actions/sort-imports.gif)
+
 ### Organize imports/usings
+
+Combination of "Sort imports/usings" and "Remove all unused imports/usings".
+
+![](images/code-actions/organize-imports.gif)
+
+VSCode also has a built-in "Organize Imports" command that is availbale from the command palette or with its default shortcut <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>O</kbd>.
 
 ### Configuration
 
