@@ -52,6 +52,14 @@ In some cases, simple compiler errors can be fixed with a Code Action:
 
 ![](images/code-actions/missing-override-keyword.gif)
 
+### Refactorings
+
+#### Extract constant
+
+Replaces all occurrences of a string literal with a constant.
+
+![](images/code-actions/extract-constant.gif)
+
 ### Source Actions
 
 Source Actions are special code actions that apply to the whole document, so they are not available contextually. You can select "Source Action..." from the context menu anywhere in the document to get a complete list:
@@ -59,13 +67,13 @@ Source Actions are special code actions that apply to the whole document, so the
 ![](images/code-actions/source-actions-1.png)
 ![](images/code-actions/source-actions-2.png)
 
-### Sort imports/usings
+#### Sort imports/usings
 
 Sorts imports and usings in a module alphabetically.
 
 ![](images/code-actions/sort-imports.gif)
 
-### Organize imports/usings
+#### Organize imports/usings
 
 Combination of "Sort imports/usings" and "Remove all unused imports/usings".
 
