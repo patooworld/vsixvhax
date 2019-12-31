@@ -4,7 +4,7 @@ The Haxe extension extends VSCode's built-in auto indentation to support single 
 
 ![](images/auto-indentation/case.gif)
 
-> **Note:** if these features are not working correctly for you, there may be a conflict with the [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox) extension. For now the workaround is to either disable the extension or to disable its `"autoPrefixOnEnter"` setting. 
+> **Note:** if these features are not working correctly for you, there may be a conflict with the [codedox](https://marketplace.visualstudio.com/items?itemName=wiggin77.codedox) extension. For now the workaround is to either disable the extension entirely or to disable its `"autoPrefixOnEnter"` setting. 
 
 If you're using Allman style indentation with `{` in a new line, this may get in the way sometimes:
 
