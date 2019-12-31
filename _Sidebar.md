@@ -34,7 +34,7 @@
 - [Formatting](https://github.com/vshaxe/vshaxe/wiki/Formatting)
 - [Extension API](https://github.com/vshaxe/vshaxe/wiki/Extension-API)
 
-**Releases**
+**Noteworthy Releases**
 
 - [1.0.0](https://github.com/vshaxe/vshaxe/wiki/What's-New-in-1.0.0)
 - [1.10.0](https://community.haxe.org/t/vshaxe-1-10-0-released/567)
@@ -42,3 +42,5 @@
 - [2.6.0](https://community.haxe.org/t/vshaxe-2-6-0-released-with-macro-debugging/1513)
 - [2.8.0](https://community.haxe.org/t/vshaxe-2-8-0-released/1618)
 - [2.9.0](https://community.haxe.org/t/vshaxe-2-9-0-released-with-snippets/1687)
+- [2.13.0](https://community.haxe.org/t/vshaxe-2-13-0-and-lix-extension-released/1809)
+- [2.15.0](https://community.haxe.org/t/vshaxe-2-15-0-released-improved-conditional-compilation-support/2007)
