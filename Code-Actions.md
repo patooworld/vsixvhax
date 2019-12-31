@@ -52,12 +52,33 @@ In some cases, simple compiler errors can be fixed with a Code Action:
 
 ![](images/code-actions/missing-override-keyword.gif)
 
+### Source Actions
+
+Source Actions are special code actions that apply to the whole document, so they are not available contextually. You can select "Source Action..." from the context menu anywhere in the document to get a list:
+
+![](images/code-actions/source-actions-1.png)
+![](images/code-actions/source-actions-2.png)
+
+### Sort imports/usings
+
+### Organize imports/usings
+
 ### Configuration
 
-- `"editor.codeActionsOnSave"` - Code Actions to be applied when the file is saved. This can be used to trigger the [Remove all unused imports/usings](#remove-all-unused-importsusings) code action on save:
+- `"editor.codeActionsOnSave"` - All Source Actions can be applied on save. To organize imports on save, you can use the following:
 	
 	```json
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true
 	}
 	```
+
+	Or if you only want to sort the imports without removing unused ones:
+
+	```json
+	"editor.codeActionsOnSave": {
+		"source.sortImports": true
+	}
+	```
+
+	Note: this works well together with [format on save](https://github.com/vshaxe/vshaxe/wiki/Formatting).
