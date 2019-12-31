@@ -12,7 +12,7 @@ If you're using Allman style indentation with `{` in a new line, this may get in
 
 There are two ways to avoid this:
 
-- Enable _extended indentation_ to automatically decrease the indentation again when typing the `{`.
+- Enable _extended indentation_ to automatically decrease the indent again when typing the `{`.
 
 	```json
 	"haxe.enableExtendedIndentation": true
