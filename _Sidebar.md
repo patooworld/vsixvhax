@@ -45,3 +45,4 @@
 - [2.9.0](https://community.haxe.org/t/vshaxe-2-9-0-released-with-snippets/1687)
 - [2.13.0](https://community.haxe.org/t/vshaxe-2-13-0-and-lix-extension-released/1809)
 - [2.15.0](https://community.haxe.org/t/vshaxe-2-15-0-released-improved-conditional-compilation-support/2007)
+- [2.17.0](https://community.haxe.org/t/vshaxe-2-17-0-released-auto-indentation-sort-imports/2195)
