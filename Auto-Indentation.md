@@ -29,4 +29,6 @@ There are two ways to avoid this:
 	}
 	```
 
-You can also use [auto-formatting](https://github.com/vshaxe/vshaxe/wiki/Formatting) to automatically adjust the indentation of the entire file.
+---
+
+By the way, you can also use [auto-formatting](https://github.com/vshaxe/vshaxe/wiki/Formatting) to automatically adjust the indentation of the entire file.
