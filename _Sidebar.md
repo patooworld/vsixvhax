@@ -22,6 +22,7 @@
 - [Hover Hints](https://github.com/vshaxe/vshaxe/wiki/Hover-Hints)
 - [Go to Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Definition)
 - [Go to Type Definition](https://github.com/vshaxe/vshaxe/wiki/Go-to-Type-Definition)
+- [Go to Implementations](https://github.com/vshaxe/vshaxe/wiki/Go-to-Implementations)
 - [Peek Definition](https://github.com/vshaxe/vshaxe/wiki/Peek-Definition)
 - [Find All References](https://github.com/vshaxe/vshaxe/wiki/Find-All-References)
 - [Rename Symbol](https://github.com/vshaxe/vshaxe/wiki/Rename-Symbol)
