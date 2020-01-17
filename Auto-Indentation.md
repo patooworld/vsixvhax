@@ -19,7 +19,7 @@ There are two ways to avoid this:
 	![](images/auto-indentation/allman-success.gif)
 
 
-	> **Note:** due to the way this feature has to be implemented, this may introduce some typing overhead. This is the reason it's not enabled by default.
+	> **Note:** due to the way this feature has to be implemented, this may introduce some typing overhead. It's also incompatible with the Vim extension due to [microsoft/vscode#13441](https://github.com/microsoft/vscode/issues/13441). For these reasons, it's not enabled by default.
 
 - Disable the Haxe extension's indentation rules - this may be preferable if you don't use bracketless `if` / `else` etc. However, you also lose auto indentation for `case` and `default`.
 
