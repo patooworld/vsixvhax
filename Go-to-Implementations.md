@@ -1,1 +1,1 @@
-> **Note:** this feature requires a nightly build of Haxe 4.1.0.
+> **Note:** this feature is only available with Haxe 4.1.0 or newer.
