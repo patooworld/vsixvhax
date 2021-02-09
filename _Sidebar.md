@@ -48,3 +48,4 @@
 - [2.15.0](https://community.haxe.org/t/vshaxe-2-15-0-released-improved-conditional-compilation-support/2007)
 - [2.17.0](https://community.haxe.org/t/vshaxe-2-17-0-released-auto-indentation-sort-imports/2195)
 - [2.21.0](https://community.haxe.org/t/vshaxe-2-21-0-released-hxml-completion/2537)
+- [2.22.0](https://community.haxe.org/t/vshaxe-2-22-0-released-implement-missing-fields-quickfix/2890)
