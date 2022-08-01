@@ -6,6 +6,6 @@
 
 >**Known issues:**
 > - you need to save all your files before a rename, otherwise positions will be off and your code might break
-> - rename will only look in folders specified via `haxe.renameSourceFolders` config option (defaults to `["src, "Source", "test", "tests"]`), if you use additional source folders, you need to add them, otherwise they won't be included when renaming
+> - rename will only look in folders specified via `haxe.renameSourceFolders` config option (defaults to `["src, "source", "Source", "test", "tests"]`), if you use additional source folders, you need to add them, otherwise they won't be included when renaming
 
 make sure you preview any changes before appling them.
