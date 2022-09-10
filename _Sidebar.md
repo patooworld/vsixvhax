@@ -35,6 +35,7 @@
 - [Code Lens](https://github.com/vshaxe/vshaxe/wiki/Code-Lens)
 - [Formatting](https://github.com/vshaxe/vshaxe/wiki/Formatting)
 - [Extension API](https://github.com/vshaxe/vshaxe/wiki/Extension-API)
+- [Inlay Hints](https://github.com/vshaxe/vshaxe/wiki/Inlay-Hints)
 
 **Noteworthy Releases**
 
