@@ -19,20 +19,18 @@ you can control inlay hints via `"editor.inlayHints.enabled"` setting (default: 
 
 Haxe's inlay hints come with additional settings to fine-tune what inlay hints you want to see:
 
-* `haxe.inlayHints.variableTypes` - inlay hints showing variable types for `var` or `final` variables (only when no explicit type hint is present)
-* `haxe.inlayHints.functionReturnTypes` - inlay hints showing return value types in function signatures (only when no explicit type hint is present)
-* `haxe.inlayHints.parameterNames` -  inlay hints with names of a parameters in a function call
-* `haxe.inlayHints.parameterTypes` - inlay hints with parameter types in function calls
-* `haxe.inlayHints.conditionals` - inlay hints for conditionals, showing corresponding `#if` condition for every `#end`
-
-### Default values
-
 ```json
-{
-	"haxe.inlayHints.variableTypes": true,
-	"haxe.inlayHints.parameterNames": true,
-	"haxe.inlayHints.parameterTypes": false,
-	"haxe.inlayHints.functionReturnTypes": true,
-	"haxe.inlayHints.conditionals": false
+"haxe.inlayHints": {
+	"variableTypes": true,
+	"parameterNames": true,
+	"parameterTypes": false,
+	"functionReturnTypes": true,
+	"conditionals": false
 }
 ```
+* `variableTypes` - inlay hints showing variable types for `var` or `final` variables (only when no explicit type hint is present)
+* `functionReturnTypes` - inlay hints showing return value types in function signatures (only when no explicit type hint is present)
+* `parameterNames` -  inlay hints with names of a parameters in a function call
+* `parameterTypes` - inlay hints with parameter types in function calls
+* `conditionals` - inlay hints for conditionals, showing corresponding `#if` condition for every `#end`
+
