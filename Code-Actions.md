@@ -54,11 +54,30 @@ In some cases, simple compiler errors can be fixed with a Code Action:
 
 ### Refactorings
 
+#### Extract var to enclosing scope
+
+![_extractvar](https://github.com/vshaxe/vshaxe/assets/8753432/469c8766-09ad-429b-a598-1379f5a4cd05)
+
+#### Add type hint
+
+![_typehint](https://github.com/vshaxe/vshaxe/assets/8753432/cfb7a852-71d3-4b7c-a886-7c9797fcafa1)
+
+
+#### Invert if
+
+![_invertif](https://github.com/vshaxe/vshaxe/assets/8753432/20ebe36c-92e6-4ba5-aeb0-7ca69abab0f2)
+
+
 #### Extract constant
 
 Replaces all occurrences of a string literal with a constant.
 
 ![](images/code-actions/extract-constant.gif)
+
+#### Update to null operators
+
+![_nullop](https://github.com/vshaxe/vshaxe/assets/8753432/2e6bf866-f91d-4f29-be1b-4ab13317d291)
+
 
 ### Source Actions
 
