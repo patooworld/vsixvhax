@@ -66,6 +66,14 @@ En/disables Haxe [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens) in your [Configurati
 
 ![_fixall](https://github.com/vshaxe/vshaxe/assets/8753432/a6554c79-4248-4f0a-bc7c-f9fbfe5c710f)
 
+This command fixes simple compiler errors with obvious solutions:
+- Adds missing semicolons and commas
+- Removes wrong semicolons in objects (`{foo: 1;}`)
+- Adds or removes wrong `override` modifier
+- Removes `public / static` from module-level fields
+- Fixes invalid package error
+- Changes `final var` to `final`
+
 To enable autofixes on file save for basic compiler errors, you can add the following to `.vscode/settings.json`:
 ```json
 "editor.codeActionsOnSave": {
