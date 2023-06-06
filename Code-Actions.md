@@ -102,8 +102,17 @@ VSCode also has a built-in "Organize Imports" command that is availbale from the
 
 ### Configuration
 
-- `"editor.codeActionsOnSave"` - All Source Actions can be applied on save. To organize imports on save, you can use the following:
-	
+- `"editor.codeActionsOnSave"` - All Source Actions can be applied on save.
+
+	To enable autofixes on file save for basic compiler errors ([Fix All command](https://github.com/vshaxe/vshaxe/wiki/Commands#haxe-fix-all)), you can use the following:
+	```json
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	}
+	```
+
+	To organize imports on save, you can use the following:
+
 	```json
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true
