@@ -61,3 +61,14 @@ Runs [Diagnostics](/vshaxe/vshaxe/wiki/Diagnostics) on all files in the workspac
 En/disables Haxe [Code Lens](/vshaxe/vshaxe/wiki/Code-Lens) in your [Configuration](/vshaxe/vshaxe/wiki/Configuration) by flipping the `"haxe.enableCodeLens"` setting.
 
 ![](images/commands/toggle-code-lens-.gif)
+
+### Haxe: Fix All
+
+![_fixall](https://github.com/vshaxe/vshaxe/assets/8753432/a6554c79-4248-4f0a-bc7c-f9fbfe5c710f)
+
+To enable autofixes on file save for basic compiler errors, you can add the following to `.vscode/settings.json`:
+```json
+"editor.codeActionsOnSave": {
+	"source.fixAll": true
+}
+```
